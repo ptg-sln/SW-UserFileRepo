@@ -48,6 +48,7 @@ REGEDIT4
 "Load Envelope Components Lightweight"=dword:00000000
 "Load Envelope Components read-Only"=dword:00000000
 "Update External Files Display List"=dword:00000000
+"Use Intelligent Mate Positioning"=dword:00000001
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Auto Dimension Drawing]
 "Vertical Scheme"="baseline"
@@ -415,41 +416,41 @@ REGEDIT4
 "Annotations, Imported (Driving)"="0"
 "Annotations Non-Imported (Driven)"="0"
 "Assembly Interfence Volume"="255"
-"Hidden Entity Selection Show Color"="33023"
+"Hidden Entity Selection Show Color"="255"
 "TextBox Handle Color In Note edit"="255"
-"SWIFT Annotations"="16711935"
+"SWIFT Annotations"="10132543"
 "SWIFT Under Constraint"="65535"
 "SWIFT Fully Constraint"="65280"
 "SWIFT Over Constraint"="255"
-"Tolerance Analysis Annotations"="16711935"
+"Tolerance Analysis Annotations"="10132543"
 "Temporary Sketch Draggin Color"="0"
 "Spline Handle and Polygon Inactive Color"="8421504"
 "Selected Item Missing Reference"="255"
-"Handle Color In Note "="15790320"
-"Drawings, Model Edges (SpeedPak)"="255"
-"Drawings, Model Tangent Edges"="255"
+"Handle Color In Note "="8421504"
+"Drawings, Model Edges (SpeedPak)"="8421504"
+"Drawings, Model Tangent Edges"="8421504"
 "Mate Callout, Error"="8454016"
 "Mate Callout, Warning"="8454143"
 "Mate Callout, Healthy"="8421631"
-"Temporary Sheet Metal Color"="8421631"
+"Temporary Sheet Metal Color"="255"
 "Measure Selection"="65280"
-"Drawings, Changed dimensions"="65280"
-"Routing Adjoining Component Color"="65280"
-"Selected weld path"="65280"
-"Envelope Components"="65280"
-"Assembly Visualization first"="65280"
-"Assembly Visualization second"="65280"
-"Assembly Visualization third"="65280"
+"Drawings, Changed dimensions"="33023"
+"Routing Adjoining Component Color"="33023"
+"Selected weld path"="255"
+"Envelope Components"="16777088"
+"Assembly Visualization first"="255"
+"Assembly Visualization second"="16711680"
+"Assembly Visualization third"="65535"
 "Assembly Visualization fourth"="65280"
-"Assembly Visualization fifth"="65280"
-"Assembly Visualization sixth"="65280"
-"Zone Lines,Inactive"="65280"
-"Manipulator connection point color"="12754980"
-"Temporary Graphics Add Material"="65280"
-"Temporary Graphics Remove Material"="65280"
+"Assembly Visualization fifth"="16711808"
+"Assembly Visualization sixth"="16777088"
+"Zone Lines,Inactive"="12615935"
+"Manipulator connection point color"="16711808"
+"Temporary Graphics Add Material"="4259584"
+"Temporary Graphics Remove Material"="16744703"
 "Graphics Tree Item Normal"="0"
-"Graphics Tree Item Selected"="0"
-"Sketch, Shaded Contours"="0"
+"Graphics Tree Item Selected"="16777088"
+"Sketch, Shaded Contours"="10485760"
 "Shading"="15717067"
 "Wireframe/HLR/Shading"=""
 "Custom Color 0"="16711935"
@@ -459,8 +460,8 @@ REGEDIT4
 "Custom Color 4"="3394560"
 "Custom Color 5"="13813955"
 "Custom Color 6"="15717067"
-"Custom Color 7"="15790320"
-"Custom Color 8"="12754980"
+"Custom Color 7"="0"
+"Custom Color 8"="0"
 "Custom Color 9"="0"
 "Custom Color 10"="0"
 "Custom Color 11"="0"
@@ -478,8 +479,8 @@ REGEDIT4
 "Save streams compressed"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\ContentManager]
-"CCLoginName"=""
-"CCLoginPwd"=""
+"CCLoginName"="cm"
+"CCLoginPwd"="cm"
 "ViewMode"=dword:00000000
 "AppearanceDataViewMode"=dword:00000000
 "MigratedLegacy"=dword:00000005
@@ -520,8 +521,6 @@ REGEDIT4
 "key"=dword:00000038
 "cmd"=dword:0000833a
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Customization\tPlate0\Custom Menus]
-
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Customization\tPlate1]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Customization\tPlate1\Custom Accelerators]
@@ -540,8 +539,6 @@ REGEDIT4
 "key"=dword:00000038
 "cmd"=dword:0000833a
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Customization\tPlate1\Custom Menus]
-
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Customization\tPlate2]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Customization\tPlate2\Custom Accelerators]
@@ -559,8 +556,6 @@ REGEDIT4
 "fVirt"=dword:0000000b
 "key"=dword:00000038
 "cmd"=dword:0000833a
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Customization\tPlate2\Custom Menus]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Default Lighting]
 
@@ -635,14 +630,14 @@ REGEDIT4
 "3D Annotations"=dword:00000001
 "3D Notes"=dword:00000000
 "Separator Char"=dword:0000002c
-"Arrow Height"="0.001016"
-"Arrow Width"="0.003302"
+"Arrow Height"="0.000762"
+"Arrow Width"="0.003556"
 "Arrow Length"="0.00635"
 "Witness Gap"="0.001"
 "Witness Ext"="0.001"
-"Arrow Style"=dword:00000001
+"Arrow Style"=dword:00000000
 "Standard"=dword:00000001
-"Virtual Sharp Display"=dword:00000002
+"Virtual Sharp Display"=dword:00000001
 "Snap Dims To Grid"=dword:00000000
 "Hide Dangling Dims"=dword:00000000
 "CenterMark Use Lines"=dword:00000001
@@ -656,16 +651,16 @@ REGEDIT4
 "Drawing Annotation Mask"=dword:2f800cfa
 "Drawing Annotation Mask2"=dword:00000400
 "Bend Note Style"=dword:00000000
-"MRU Length Dimension1"="0.025"
-"MRU Length Dimension2"="1.3"
-"MRU Length Dimension3"="1.35"
-"MRU Length Dimension4"="0.595"
-"MRU Length Dimension5"="0.525"
-"MRU Angle Dimension1"="0.78539816339745"
-"MRU Angle Dimension2"="0.130899693899575"
-"MRU Angle Dimension3"="0.5235987755983"
-"MRU Angle Dimension4"="0.314159265358987"
-"MRU Angle Dimension5"="0.628318530717959"
+"MRU Length Dimension1"="0.02"
+"MRU Length Dimension2"="0.2"
+"MRU Length Dimension3"="0.0203963244688168"
+"MRU Angle Dimension1"="0.5235987755983"
+"MRU Length Dimension4"="0.0357124687285306"
+"MRU Length Dimension5"="0.055"
+"MRU Angle Dimension2"="0.349065850398867"
+"MRU Angle Dimension3"="2.0943951023932"
+"MRU Angle Dimension4"="0.78539816339745"
+"MRU Angle Dimension5"="1.22173047639603"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Direct Edit]
 "Enable Direct Edit"=dword:00000000
@@ -692,14 +687,14 @@ REGEDIT4
 "Use Default Document Templates"=dword:00000001
 "Templates Last Tab Used"="PTG"
 "Only Show Standard Formats"=dword:00000001
-"Default Part template"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2017\\templates\\PTG\\Osa.prtdot"
-"Default Assy template"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2017\\templates\\PTG\\Kokoonpano.asmdot"
-"Default Draw Template"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2017\\templates\\Drawing.drwdot"
+"Default Part template"="C:\\SW-UserFileRepo\\templates\\PTG\\Osa.prtdot"
+"Default Assy template"="C:\\SW-UserFileRepo\\templates\\PTG\\Kokoonpano.asmdot"
+"Default Draw Template"="C:\\SW-UserFileRepo\\templates\\Drawing.drwdot"
 "Custom Part Document Template"=""
 "Custom Assembly Document Template"=""
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Drawings]
-"Last HoleTable Template Path"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\standard hole table--letters.sldholtbt"
+"Last HoleTable Template Path"=""
 "Spelling Option"=dword:00000000
 "Bom Default Bom Type"=dword:00000000
 "Max Halo Count"=dword:00000096
@@ -708,7 +703,7 @@ REGEDIT4
 "Last BOM Template Path"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\bom-standard.sldbomtbt"
 "Bom Configuration Use Doc Font"=dword:00000001
 "Bom Default Following Assem Order"=dword:00000000
-"Last Weldment Template Path"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\weldtable-standard.sldwldtbt"
+"Last Weldment Template Path"=""
 "Bom Control Split Direction"=dword:00000000
 "Bom Configuration Anchor Locked"=dword:00000001
 "Bom Configuration Align Bottom"=dword:00000000
@@ -722,7 +717,7 @@ REGEDIT4
 "Find or Replace Text"=dword:00000001
 "Bom Configuration Anchor Type"=dword:00000000
 "Bom Default Display As One Item"=dword:00000001
-"Last Revision Template Path"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\standard revision block.sldrevtbt"
+"Last Revision Template Path"=""
 "Bom Control Split Table"=dword:00000000
 "Bom Configuration Use Summ Info"=dword:00000000
 "Bom Default Keep Item Number"=dword:00000000
@@ -738,12 +733,13 @@ REGEDIT4
 "Auto space dimensions on delete"=dword:00000001
 "Last Title Block Template Path"=""
 "Display sketch solid hatch in back"=dword:00000000
-"Section view Auto hatching"=dword:00000001
+"Section view Auto hatching"=dword:00000000
 "Section view Exclude fasteners"=dword:00000000
 "Section view Show excluded fasteners"=dword:00000000
 "Breakout section Auto hatching"=dword:00000000
 "Breakout section Exclude fasteners"=dword:00000000
 "Show rapid dimension manipulator"=dword:00000001
+"Last WeldTable Template Path"=""
 "Move to back drawing sketch pictures"=dword:00000000
 "Last BendTable Template Path"=""
 "Autoinsert Magnet Lines"=dword:00000001
@@ -788,8 +784,8 @@ REGEDIT4
 "Link Dim Text"=dword:00000001
 "Detail Hatch Scale"=dword:00000000
 "Clip detail view sketch"=dword:00000000
-"Paper Scale1"="2"
-"Paper Scale2"="1"
+"Paper Scale1"="1"
+"Paper Scale2"="20"
 "Auto update BOM"=dword:00000001
 "save as layer in pdf"=dword:00000000
 "save as layer in EDRW"=dword:00000000
@@ -798,8 +794,8 @@ REGEDIT4
 "Bom Sort Method"=dword:00000000
 "Paragraph Auto Numbering"=dword:00000001
 "Align Break With Parent View "=dword:00000001
-"Break Line Style"=dword:00000002
-"Detail View Outline Style"=dword:00000002
+"Break Line Style"=dword:00000001
+"Detail View Outline Style"=dword:00000000
 "Crop View Outline Style"=dword:00000000
 "Break view Jagged Edge ShapeIntensity"="1"
 "Detail view Jagged Outline ShapeIntensity"="0.5"
@@ -819,7 +815,7 @@ REGEDIT4
 "Tangent Edge Length Threshold"="0.002"
 "Pick Hidden HLR"=dword:00000000
 "Show Shaded Edges"=dword:00000001
-"Dynamic Highlight"=dword:00000000
+"Dynamic Highlight"=dword:00000001
 "Tangent Edge Display"=dword:00000001
 "Hidden Line Display"=dword:00000001
 "Pick Hidden WF"=dword:00000001
@@ -844,7 +840,7 @@ REGEDIT4
 "Show STL Info on Save"=dword:00000001
 "DXF/DWG 1:1 Scale Factor"="1"
 "STL Binary File Format"=dword:00000001
-"STL Preview"=dword:00000001
+"STL Preview"=dword:00000000
 "Do not translate STL output data to positive space"=dword:00000000
 "DXF/DWG Mapping"=dword:00000000
 "TIF Image Type"=dword:00000001
@@ -859,7 +855,7 @@ REGEDIT4
 "STL Export Units"=dword:00000000
 "DXF/DWG Mapping File Index"=dword:ffffffff
 "STL Check For Interference"=dword:00000000
-"STL Tessellation Angle Tolerance"="0.174532925199433"
+"STL Tessellation Angle Tolerance"="0.17453"
 "TIF Paper Size"=dword:00000000
 "SAT Units"=dword:00000000
 "TIF Dpi"=dword:00000001
@@ -867,17 +863,17 @@ REGEDIT4
 "DXF/DWG Save As Format"=dword:00000003
 "TIF Capture"=dword:00000000
 "TIF Fit to scale"=dword:00000000
-"Save Assembly As Part Options"=dword:00000002
+"Save Assembly As Part Options"=dword:00000001
 "SAT Save Format"=dword:00000000
 "VRML Export Units"=dword:00000002
 "Save all components of an assembly in one file for VRML"=dword:00000001
-"STL Tessellation Number"=dword:00000067
+"STL Tessellation Number"=dword:00000068
 "DXF/DWG Enable export of splines as splines to dxf"=dword:00000001
 "PDF Print Header Footer"=dword:00000000
 "DXF/DWG Enable Entity End Point Merging"=dword:00000000
 "PDF Embed Fonts"=dword:00000001
 "PDF Dots Per Inch"=dword:00000060
-"PDF Shaded Edges High Quality"=dword:00000001
+"PDF Shaded Edges High Quality"=dword:00000000
 "PDF Line Quality"=dword:00000000
 "PDF RealView Graphics"=dword:00000000
 "PDF Export In Color"=dword:00000001
@@ -909,7 +905,7 @@ REGEDIT4
 "AMF File Format Compression"=dword:00000000
 "AMF File Format Materials"=dword:00000001
 "AMF File Format Colors"=dword:00000001
-"PDF DPI for OLE images"=dword:00000060
+"PDF DPI for OLE images"=dword:00000000
 "IFC4 export preference"=dword:00000000
 "DXF/DWG Number of sheets to export"=dword:00000002
 "Save IFC file format"=dword:00000017
@@ -953,7 +949,7 @@ REGEDIT4
 "Macro Feature Folders"=""
 "Hyperlink History"=""
 "Custom Symbol Folders"=""
-"Document Template Folders"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2017\\templates\\;C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\Tutorial"
+"Document Template Folders"="C:\\SW-UserFileRepo\\templates;C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2017\\templates\\;C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\Tutorial"
 "Sustainability template Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english"
 "Symbol Library Folders"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2017\\lang\\english"
 "Costing template Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english"
@@ -970,12 +966,12 @@ REGEDIT4
 "Assembly Folders"=""
 "Drawing Folders"=""
 "Macro Folders"=""
-"SolidWorks Journal Folders"="C:\\Users\\Hydis\\AppData\\Roaming\\SolidWorks\\SOLIDWORKS 2017"
+"SolidWorks Journal Folders"="C:\\Users\\CURRENT_USER\\AppData\\Roaming\\SolidWorks\\SOLIDWORKS 2017"
 "Search Web Folders"=dword:00000001
 "Custom Property Folders"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2017\\lang\\english"
-"Dimension Favorite Folders"="C:\\Users\\Hydis\\Documents"
+"Dimension Favorite Folders"="D:\\Users\\Adjutant\\Documents"
 "Hole Callout Format Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english"
-"Weldment Profile Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\weldment profiles"
+"Weldment Profile Folders"="C:\\SW-UserFileRepo\\Weldment profiles;C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\weldment profiles"
 "Color Swatch Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\colorswatches"
 "Theme Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\data\\themes"
 "Custom Apperance Folders"=""
@@ -988,7 +984,7 @@ REGEDIT4
 "Weldment Cut List Template Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english"
 "Revision Table Template Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english"
 "Line Style Folders"=""
-"Content Manager Folders"="C:\\ProgramData\\SolidWorks\\SOLIDWORKS 2017\\Design Library;C:\\Users\\hydis\\Documents\\Teemu;C:\\Users\\hydis\\Documents\\Tomi\\Solikka koulutus\\Peltikaappi"
+"Content Manager Folders"="C:\\SW-UserFileRepo\\Kiinnittimet"
 "Journal Template Folders"=""
 "Bend Note Format Folders"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english"
 "Appearance Folders"=""
@@ -1095,7 +1091,7 @@ REGEDIT4
 "UserExperienceLevel"=dword:00000001
 "MenuVersion"="SOLIDWORKS 2017"
 "ActivateTabletThemeOnTouch"=dword:00000001
-"Last Splash Id"=dword:00000001
+"Last Splash Id"=dword:00000003
 "Show Arrow In Ansi Weld"=dword:00000001
 "Sketch Infer From Model"=dword:00000001
 "Transparency Level for In-context Edit"=dword:0000005a
@@ -1122,7 +1118,7 @@ REGEDIT4
 "Interval for SaveNotification"=dword:00000014
 "Interval for SaveNotificationDismiss"=dword:00000005
 "Display Shaded Planes"=dword:00000001
-"Sheet Metal Bend Position"=dword:00000001
+"Sheet Metal Bend Position"=dword:00000000
 "PD Color 3"=dword:004d3c39
 "Prompt to close sketch"=dword:00000001
 "Open CGR Data"=dword:00000001
@@ -1132,7 +1128,7 @@ REGEDIT4
 "Display Output Coordinate System in Corner of Window in Measure Dialog"=dword:00000001
 "Display All Drawing Relations"=dword:00000000
 "Dont Show Assembly HLR In Color"=dword:00000000
-"Sheet Metal Jog Radius"="0.0005"
+"Sheet Metal Jog Radius"="0"
 "Sheet Metal Cross Break Radius"="0"
 "Use Fillet Mgr"=dword:00000000
 "Sheet Metal Hem Type"=dword:00000001
@@ -1143,7 +1139,7 @@ REGEDIT4
 "Select By View Show Selection"=dword:00000001
 "Wrap Feature Thickness"="0"
 "EnableNewCThreadCreation"=dword:00000001
-"Automatic Scaling"=dword:00000000
+"Automatic Scaling"=dword:00000001
 "Enable Smart Filter selection for Fillet and Chamfer commands"=dword:00000001
 "Show Warnings"=dword:00000001
 "Show all mate entities"=dword:00000001
@@ -1155,19 +1151,19 @@ REGEDIT4
 "Match Background in FeatureManager"=dword:00000000
 "Sheet Metal Break Corner Use Ratio"=dword:00000000
 "Angle Increment"="0.0174532925199433"
-"Structural Member Apply End Condition"=dword:00000000
+"Structural Member Apply End Condition"=dword:00000001
 "Replace all instances of component"=dword:00000000
 "Display Output Coordinate System in Corner of Window in Mass Prop Dialog"=dword:00000001
 "Sheet Metal Allowance Type"=dword:00000001
-"Sheet Metal Thickness"="0.025"
+"Sheet Metal Thickness"="0.0007366"
 "Display grid plane when shaded"=dword:00000000
 "RemoveBackupsDays"=dword:00000007
-"Sheet Metal K Factor"="0.25"
+"Sheet Metal K Factor"="0.5"
 "Denomiator"=dword:00000000
 "Mold Ruled Srf Trim And Sew"=dword:00000001
 "Zoom About Screen Center"=dword:00000000
 "Show Online Tutorial"=dword:00000001
-"Sheet Metal Jog Offset"="0.016"
+"Sheet Metal Jog Offset"="0"
 "Warn about incompatibility with previous version"=dword:00000000
 "Context Toolbar Mode"=dword:00000002
 "Sheet Metal Jog Position"=dword:00000000
@@ -1179,20 +1175,20 @@ REGEDIT4
 "Display All Spline Handles"=dword:00000001
 "Prompt to set driven state when dim is overdefining"=dword:00000001
 "Highlight new or modified faces"=dword:00000001
-"Sheet Metal Normat Cut"=dword:00000000
+"Sheet Metal Normat Cut"=dword:00000001
 "EnablePDMSync"=dword:00000001
 "Material Density"="1000"
-"Sheet Metal Jog Angle"="1.5707963267949"
+"Sheet Metal Jog Angle"="0"
 "Sheet Metal Cross Break Angle"="0"
-"Measure Dialog position"="425,180,360,332,1"
+"Measure Dialog position"="49,167,310,200,1"
 "Auto Simplify Drawing View"=dword:00000000
 "Use HLR Shaded Edge Color"=dword:00000001
 "Angle Snap Value"="0.78539816339745"
 "Maximize Documents On Open"=dword:00000001
 "Background Image"="smoke.png"
-"Sheet Metal Radius"="0.025"
+"Sheet Metal Radius"="0.0007366"
 "Length Increment (English)"="0.00254"
-"Structural Member Corner"=dword:00000002
+"Structural Member Corner"=dword:00000000
 "Move sketch entities not solving the sketch"=dword:00000000
 "Enable Selection through Transparency"=dword:00000001
 "Use Draft Mgr"=dword:00000001
@@ -1202,16 +1198,16 @@ REGEDIT4
 "Include Hidden Feature"=dword:00000000
 "RMB learning mode"=dword:00000001
 "Dynamic Highlight from Browser"=dword:00000001
-"Display All Model Relations"=dword:00000000
+"Display All Model Relations"=dword:00000001
 "Check Bodies Loaded In Lightweight"=dword:00000000
 "3d Sketch Line Dims Usual Virtual Points"=dword:00000001
 "Display Spline Control Polygon"=dword:00000000
-"Active Color Scheme Name"="Blue Highlight"
+"Active Color Scheme Name"="Smoke"
 "Mold ShutOff Knit"=dword:00000001
 "Show new or modified bodies"=dword:00000001
 "Mold Ruled Srf Angle"="-1"
 "Keyboard Navigation"=dword:00000000
-"Last user path"="V:\\Teemu\\Arean oven nuppi\\"
+"Last user path"="D:\\Users\\Adjutant\\Documents\\Tuotanto\\Kiinnittimet\\KiinnitysRaudat\\"
 "Mold Draft Pos Steep Color"=dword:00349659
 "Show Welcome Screen"=dword:00000000
 "Sheet Metal Add Break Corner"=dword:00000000
@@ -1241,7 +1237,7 @@ REGEDIT4
 "Start Revision Symbol Command"=dword:00000001
 "PD Color 1"=dword:00ebe4e1
 "New Doc Quicktip Shown"=dword:00000001
-"Sheet Metal Relief Type"=dword:00000001
+"Sheet Metal Relief Type"=dword:00000000
 "TransparentPreview"=dword:00000001
 "Annotation Text Scale1"="1"
 "Save CGR Data"=dword:00000000
@@ -1252,25 +1248,25 @@ REGEDIT4
 "Sheet Metal Hem Miter Gap"="-1"
 "Sheet Metal Hem Position"=dword:00000000
 "Mgr View Tabs Pos"=dword:00000000
-"Structural Member Profile Path"="C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\lang\\english\\weldment profiles\\ISO\\Tube (square)\\80 x 80 x 3.2.sldlfp"
+"Structural Member Profile Path"=""
 "Config choice for replacing components"=dword:00000000
 "Automatic Relations"=dword:00000001
 "Display Sketch Dims 2D"=dword:00000001
 "Mold Draft Neg Color"=dword:000000ff
 "Display Grid"=dword:00000000
-"Start Insert Model View command for a New Drawing"=dword:00000000
+"Start Insert Model View command for a New Drawing"=dword:00000001
 "PD Color 4"=dword:00967f7d
-"Unit System"=dword:00000003
+"Unit System"=dword:00000004
 "View Animation Speed"="0.5"
 "Show area hatch/fill dialog on creation"=dword:00000001
 "PM Color Scheme"=dword:00000007
-"Major Grid Spacing (Metric)"="0.04"
+"Major Grid Spacing (Metric)"="0.1"
 "Ask Load Context Already"=dword:00000000
 "Snaps Per Minor Grid Unit"=dword:00000001
-"Instant 3D Enabled"=dword:00000000
+"Instant 3D Enabled"=dword:00000001
 "Show window contents while dragging"=dword:00000001
 "Reattach mates in component replacements"=dword:00000001
-"Length Increment (Metric)"="0.001"
+"Length Increment (Metric)"="0.01"
 "User Enable AutoFix"=dword:00000001
 "User Enable FreezeBar"=dword:00000000
 "Enable Educational Files"=dword:00000000
@@ -1290,10 +1286,10 @@ REGEDIT4
 "Show Errors"=dword:00000001
 "Annotation Text Scale2"="1"
 "Quick Tips for Drawings"=dword:00000000
-"Enable references external to the model"=dword:00000001
+"Enable references external to the model"=dword:00000000
 "Mold Tooling Split Length 1"="-1"
 "Modal Commands"=dword:00000001
-"Number of Significant Digits"=dword:00000003
+"Number of Significant Digits"=dword:00000002
 "Active PM Skin Name"=""
 "Backup to original path"=dword:00000000
 "OnScreen Buttons"=dword:00000001
@@ -1307,8 +1303,8 @@ REGEDIT4
 "Show Save Components Warning"=dword:00000001
 "Sheet Metal Allowance"="0"
 "Interval for AutoSave"=dword:0000000a
-"Start Insert Component command for a New Assembly"=dword:00000000
-"Extend/Trim Face Trim"=dword:00000000
+"Start Insert Component command for a New Assembly"=dword:00000001
+"Extend/Trim Face Trim"=dword:00000001
 "Open Documents On Startup"=dword:00000001
 "Angle Units"=dword:00000000
 "Taskpane Animation"=dword:00000000
@@ -1324,12 +1320,12 @@ REGEDIT4
 "Show Preview"=dword:00000000
 "Quick Tips for Assemblies"=dword:00000000
 "Four View Viewport Projection Type"=dword:00000000
-"MultiEdgeFlangeGapDistance"="0.001"
+"MultiEdgeFlangeGapDistance"="0"
 "Snap Follows Display"=dword:00000001
 "Use Custom Units for Measure Dialog"=dword:00000000
 "Default to driven state when dim is overdefining"=dword:00000001
 "Default Create Plane Angle"="1.5707963267949"
-"Child feature deletion option"=dword:00000001
+"Child feature deletion option"=dword:00000000
 "Display Internal Points In Drawing"=dword:00000000
 "Snaps Per Major Grid Unit"=dword:00000004
 "Enable Automatic Annotation View Creation"=dword:00000001
@@ -1347,7 +1343,7 @@ REGEDIT4
 "Hide Scrollbars In Graphics View"=dword:00000001
 "PM in Container"=dword:00000000
 "PM in Container Last"=dword:00000003
-"Selection Manager Type"=dword:00000000
+"Selection Manager Type"=dword:ffffffff
 "Freeform Curvature On"=dword:00000000
 "Selection Manager Auto OK"=dword:00000000
 "Freeform Has Been Used"=dword:00000000
@@ -1363,17 +1359,17 @@ REGEDIT4
 "EnableNetFeatureCenterline"=dword:00000000
 "Print Break Lines 2"=dword:00000001
 "Sheet Metal Weld Bead Add Fillet"=dword:00000001
-"Sheet Metal Weld Bead Fillet Radius"="0.002"
+"Sheet Metal Weld Bead Fillet Radius"="0.001"
 "Sheet Metal Weld Bead Add Texture"=dword:00000001
 "Instant 3D Back-off Threshold"="0.5"
 "Enable New UI Mini Toolbar"=dword:00000001
 "Show Latest News feeds In task pane"=dword:00000001
 "Sketch Spline Outer Comb"=dword:00000000
 "Sketch Numerical Input"=dword:00000000
-"Toolbox Data Location"="C:\\SOLIDWORKS Data\\"
+"Toolbox Data Location"="D:\\SOLIDWORKS Data\\"
 "Drawings Background Image"=""
 "Advanced Selection Dialog settings"=""
-"Sheet Metal Weld Bead Add Weld Symbol"=dword:00000001
+"Sheet Metal Weld Bead Add Weld Symbol"=dword:00000000
 "Rapid Sketch Enabled"=dword:00000000
 "Transition show hide component"="0.200000002980232"
 "Transition isolate component"="0.25"
@@ -1400,18 +1396,18 @@ REGEDIT4
 "Extend/Trim Gap Value"="0"
 "TableFormatDialogX"=dword:00000000
 "TableFormatDialogY"=dword:00000000
-"Dont Ask Default Template Preferences"=dword:00000001
+"Dont Ask Default Template Preferences"=dword:00000000
 "AutoBackup After Mesh Or Run Study"=dword:00000000
 "Hide Decals in SW render"=dword:00000000
 "Time Increment"="0.1"
 "Time Units"=dword:00000000
 "Number of Time Digits"=dword:00000002
 "Mold Ruled Srf Connecting Srf"=dword:00000001
-"CThread Last Used Standard"="ISO"
-"CThread Last Used Type"="Machine Threads"
+"CThread Last Used Standard"=""
+"CThread Last Used Type"=""
 "ShowSimulationWelcomeDlg"=dword:00000001
 "Use Body Materials"=dword:00000001
-"DoNotSaveReadOnlyDocs"=dword:00000001
+"DoNotSaveReadOnlyDocs"=dword:00000000
 "Pattern preview Type"=dword:00000000
 "Use Custom Material Optical Props"=dword:00000000
 "Convert Legacy Color Blended Textures"=dword:00000000
@@ -1426,8 +1422,8 @@ REGEDIT4
 "Add Dimensions To Line Entity"=dword:00000000
 "Add Dimensions To Rectangle Entity"=dword:00000000
 "Add Dimensions To Arc Entity"=dword:00000000
-"Add Dimensions To Circle Entity"=dword:00000001
-"Add Dimensions To Slot Entity"=dword:00000001
+"Add Dimensions To Circle Entity"=dword:00000000
+"Add Dimensions To Slot Entity"=dword:00000000
 "Use specified color for changed dimensions"=dword:00000000
 "Display Ambient Occlusion Shadows"=dword:00000000
 "Draft Quality Ambient Occlusion"=dword:00000000
@@ -1445,7 +1441,7 @@ REGEDIT4
 "Reconnect RTRenderer Animation NumFrames"=dword:00000000
 "Add Dimension On Sketch Numerical Input"=dword:00000000
 "Enable Measure Dialog Point to Point Mode"=dword:00000000
-"Set Arc/Circle status for Measure Dialog"=dword:00000000
+"Set Arc/Circle status for Measure Dialog"=dword:00000002
 "Set Arc/Circle first selection status for Measure Dialog"=dword:00000001
 "Set Arc/Circle second selection status for Measure Dialog"=dword:00000001
 "View Rotate About Vertical"=dword:00000000
@@ -1499,12 +1495,12 @@ REGEDIT4
 "3D Print Supports"=dword:00000001
 "3D Print Raft"=dword:00000000
 "TFMOpaqueState"=dword:00000000
-"Auto-rotate View Normal at Sketch Creation"=dword:00000001
+"Auto-rotate View Normal at Sketch Creation"=dword:00000000
 "Fully Constrained Sketch"=dword:00000000
 "Background Appearance"=dword:00000003
 "Use Software OGL"=dword:00000000
 "Inference Filter Size"=dword:00000001
-"Inference Filter 0"=dword:015e7dea
+"Inference Filter 0"=dword:015e7dfa
 "Rectangle Construction Line Type"=dword:00000000
 "Centre Rectangle Construction Line Type"=dword:00000000
 "Any Angle Rectangle Construction Line Type"=dword:00000000
@@ -1515,7 +1511,7 @@ REGEDIT4
 "Any Angle Rectangle Construction Lines"=dword:00000000
 "Centre Any Angle Rectangle Construction Lines"=dword:00000001
 "Parallelogram Construction Lines"=dword:00000000
-"WarnSketchInAssemblyContext"=dword:00000000
+"WarnSketchInAssemblyContext"=dword:00000001
 "dont show Light Dynamic Help"=dword:00000000
 "show Scene Dynamic Help"=dword:00000001
 "Delete Cosmetic Threads From Cavity"=dword:00000000
@@ -1533,7 +1529,7 @@ REGEDIT4
 "Last Macro Type Edited"=dword:00000001
 "Last Macro Type Recorded"=dword:00000001
 "Use Wpf Commands"=dword:00000001
-"Sketch Curvature Spines"=dword:00000060
+"Sketch Curvature Spines"=dword:ffffffff
 "Enable Annotation Visibilty PM"=dword:00000000
 "Show Bounding Box"=dword:00000000
 "Drawing Line Display Mode"=dword:00000000
@@ -1552,16 +1548,16 @@ REGEDIT4
 "Structural Member Profile Config Name"=""
 "Show breadcrumbs on selection"=dword:00000001
 "Custom Thread Last Used Standard"=""
-"Custom Thread Last Used Type Or Profile Name"="Inch Tap"
-"Custom Thread Profile Config Name"="0.3750-24"
-"Instant 2D Enabled"=dword:00000000
+"Custom Thread Last Used Type Or Profile Name"="Metric Die"
+"Custom Thread Profile Config Name"="M20x2.5"
+"Instant 2D Enabled"=dword:00000001
 "show parent reference arrow"=dword:00000000
 "show child reference arrow"=dword:00000000
 "Include ref doc folder in rename comp where used"=dword:00000000
-"Color Theme ID"=dword:00000004
+"Color Theme ID"=dword:00000001
 "Enable Comp Rename"=dword:00000000
 "Shaded Sketch Contours"=dword:00000001
-"Include sub folders"=dword:00000001
+"Include sub folders"=dword:00000000
 "Exclude Active directory and Recent save locations"=dword:00000000
 "Graphics Instance"=dword:00000001
 "Enable Patttern Performance 1"=dword:00000000
@@ -1590,22 +1586,22 @@ REGEDIT4
 "Software OGL Alarm"=dword:00000001
 "Freeform Mesh Curvature 0"=dword:00000000
 "Freeform Mesh Curvature 1"=dword:00000000
+"Last Used Holewizard Tab"=dword:00000003
 "AsmVirtualSubassemblyViewType"=dword:00000000
-"Last Used Holewizard Tab"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\General\Addin Performance]
-".\fworks\fworks.dll_AutoLoaded"="0.39"
-".\sldUtils\SwLoaderSw.dll_AutoLoaded"="0.407"
-"SOLIDWORKS Composer"="0.133"
-"3Dcontrol"="0.094"
-"SOLIDWORKS Design Checker"="0.11"
-"SOLIDWORKS Forum 2017"="0.076"
-"sldFuncFeat_AutoLoaded"="0.219"
-"sldanalysistools_AutoLoaded"="0.043"
+".\fworks\fworks.dll_AutoLoaded"="0.069"
+".\sldUtils\SwLoaderSw.dll_AutoLoaded"="0.071"
+"SOLIDWORKS Composer"="0.034"
+"SOLIDWORKS Design Checker"="0.039"
+"SOLIDWORKS Forum 2017"="0.08"
+"sldFuncFeat_AutoLoaded"="0.247"
+"sldanalysistools_AutoLoaded"="0.095"
+"3Dcontrol"="0.213"
 "GCSwAddin"="0.094"
 ".\toolbox\swbrowser.dll"="0.995"
 ".\toolbox\swtoolbox.dll"="0.091"
-"C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\\Toolbox\\SwBrowser.dll"="20.528"
+"C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\\Toolbox\\SwBrowser.dll"="1.499"
 "GibbsCAM Add-In"="0.093"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\General\DontAskAgainOptions]
@@ -1748,6 +1744,8 @@ REGEDIT4
 "IDS_ENABLE_CARTOON_RENDERING_SW"=dword:ffffffff
 "IDS_VISTA_SAVE_AS_WARNING_TITLE"=dword:ffffffff
 "MSG_ASSEM_NOT_SAVED_WHEN_SAVE_VIRTUAL"=dword:ffffffff
+"MSG_CHOOSE_DISPLAY_STATE"=dword:ffffffff
+"IDS_PROMPT_FOR_OLD_PW2"=dword:ffffffff
 "IDS_VERIFY_REMOVE_ALL_APPEARANCES"=dword:ffffffff
 "IDS_IGNORING_FEATURE_APPEARANCES"=dword:ffffffff
 "MSG_WARN_EDIT_READ_ONLY_2"=dword:ffffffff
@@ -1757,8 +1755,6 @@ REGEDIT4
 "IDS_VERIFY_REMOVE_FLOOR_FOR_FLATTEN_FLOOR"=dword:ffffffff
 "MSG_RESOLVE_LW_FOR_CUSTOM_PROPS"=dword:ffffffff
 "MSG_LOAD_DRWSHEET_FOR_CUSTOM_PROPS"=dword:ffffffff
-"MSG_CHOOSE_DISPLAY_STATE"=dword:ffffffff
-"IDS_PROMPT_FOR_OLD_PW2"=dword:ffffffff
 "MSG_CREATE_GLOBAL_VARIABLE"=dword:ffffffff
 "IDS_NOTE_BULLET_ALIGN"=dword:ffffffff
 "MSG_DELETE_REVISION_TABLE_ROW"=dword:ffffffff
@@ -1814,6 +1810,7 @@ REGEDIT4
 "MSG_RECALCULATE_FOR_AVI"=dword:ffffffff
 "MSG_PATH_MATE_IN_MOTION"=dword:ffffffff
 "MSG_OPT_CUR_SCENARIO_RESULTS_ARE_INTERPOLATED"=dword:ffffffff
+"MSG_WARN_ABOUT_LONG_TIME"=dword:ffffffff
 "MSG_CONFIG_ALLPARMETER"=dword:ffffffff
 "MSG_WALKTHROUGH_BAD_SKETCH"=dword:ffffffff
 "MSG_WALKTHROUGH_BAD_SELECTIONS"=dword:ffffffff
@@ -1830,6 +1827,7 @@ REGEDIT4
 "IDS_CONVERT_VIEW_TO_SKETCH_WARNING_OK"=dword:ffffffff
 "IDS_BREAKING_BOM_LINK"=dword:ffffffff
 "MSG_OKAY_LOAD_MODEL_MBV"=dword:ffffffff
+"MSG_VIEWS_NEED_UPDATE"=dword:ffffffff
 "MSG_REBUILD_DOC_BEFORE_PERF_EVAL"=dword:ffffffff
 "MSG_SHOW_SHEET_SCALE_DIALOG"=dword:ffffffff
 "IDS_ADV_HOLE_WZD_3D_TO_2D_SKETCH_WARNING"=dword:ffffffff
@@ -1837,7 +1835,6 @@ REGEDIT4
 "IDS_ADV_HOLE_WZD_CUSTOMIZED_TO_DEFAULT_CALLOUT_WARNING"=dword:ffffffff
 "IDS_HOLETYPE_CUSTOM_SIZING_APPLIED"=dword:ffffffff
 "MSG_WARN_CONVERTING_TO_NEW_FORMAT_WHEN_OPEN_LDR"=dword:ffffffff
-"MSG_WARN_ABOUT_LONG_TIME"=dword:ffffffff
 "IDS_DIMPATTERN_DISABLE_PREVIEW"=dword:ffffffff
 "MSG_LDR_EXPVIEW_SNAPSHOT_WARN"=dword:ffffffff
 
@@ -1865,9 +1862,9 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\General\Last Run SolidWorks]
 "SOLIDWORKS_MAJOR_VERSION"=dword:00000019
-"SOLIDWORKS_SP_STRING"="SP3.0"
-"STRFILEVER"="25.3.0.0059"
-"SOLIDWORKS_SP_NUM_MAJORMINOR"="3.0"
+"SOLIDWORKS_SP_STRING"="SP5.0"
+"STRFILEVER"="25.5.0.0083"
+"SOLIDWORKS_SP_NUM_MAJORMINOR"="5.0"
 "SOLIDWORKS_VERSION_STRING"="SOLIDWORKS 2017"
 "ADDIN_BEING_LOADED_ON_STARTUP"=""
 
@@ -1925,7 +1922,7 @@ REGEDIT4
 "current_value"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\cbore\hole_depth]
-"current_value"="0.16019"
+"current_value"="5e-005"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\cbore\hole_end_condition]
 "current_value"="1"
@@ -2022,7 +2019,7 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\hole]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\hole\angle_at_bottom]
-"current_value"="140.000000"
+"current_value"="118.000000"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\hole\dowel_hole_fit_type]
 "current_value"="0"
@@ -2046,22 +2043,22 @@ REGEDIT4
 "current_value"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\hole\hole_depth]
-"current_value"="0.16019"
+"current_value"="0.0055"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\hole\hole_end_condition]
 "current_value"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\hole\near_csink_ang]
-"current_value"="0.000000"
+"current_value"="90.000000"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\hole\near_csink_dia]
-"current_value"="0."
+"current_value"="7."
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\hole\offset_value]
-"current_value"="0.16019"
+"current_value"="0.0055"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\hole\Size]
-"current_value"="Ø16.0"
+"current_value"="Ø6.4"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\hole\Standard]
 "current_value"="ISO"
@@ -2070,7 +2067,7 @@ REGEDIT4
 "current_value"="8"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\hole\thru_hole_dia]
-"current_value"="16."
+"current_value"="6.4"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\hole\thru_hole_fit]
 "current_value"="1"
@@ -2277,7 +2274,7 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\angle_at_bottom]
-"current_value"="180.000000"
+"current_value"="118.000000"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\cosmetic_thread]
 "current_value"="1"
@@ -2295,25 +2292,25 @@ REGEDIT4
 "current_value"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\hole_depth]
-"current_value"="0.055"
+"current_value"="0.03"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\hole_end_condition]
-"current_value"="0"
+"current_value"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\hw_thread_state]
 "current_value"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\near_csink_ang]
-"current_value"="90.000000"
+"current_value"="0.000000"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\near_csink_dia]
-"current_value"="25."
+"current_value"="0."
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\offset_value]
-"current_value"="0.055"
+"current_value"="0.03"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\Size]
-"current_value"="M24"
+"current_value"="M20"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\Standard]
 "current_value"="ISO"
@@ -2334,16 +2331,16 @@ REGEDIT4
 "current_value"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\thread_depth]
-"current_value"="0.045"
+"current_value"="0.04"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\thread_depth_hcoil]
-"current_value"="0.045"
+"current_value"="0.04"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\thread_type]
-"current_value"="0"
+"current_value"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\thru_hole_dia]
-"current_value"="21."
+"current_value"="17.5"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Hole Wizard\tap\Type]
 "current_value"="Tapped hole"
@@ -2385,7 +2382,7 @@ REGEDIT4
 "IDF Reverse underside components"=dword:00000000
 "Import 2D Sketches"=dword:00000001
 "Import Surfaces and Solids"=dword:00000001
-"Merge Entities"=dword:00000000
+"Merge Entities"=dword:00000001
 "SLDXML Import sketch data"=dword:00000000
 "SLDXML Import sketch objects in a mechanism sketch as blocks"=dword:00000000
 "SLDXML Import assembly mates data"=dword:00000000
@@ -5823,12 +5820,115 @@ REGEDIT4
 "49076"=dword:00000000
 "49010"=dword:00000000
 "229663"=dword:00000000
+"51609"=dword:00000000
+"393217"=dword:00000000
+"393218"=dword:00000000
+"393219"=dword:00000000
+"393220"=dword:00000000
+"393221"=dword:00000000
+"393222"=dword:00000000
+"393223"=dword:00000000
+"168495"=dword:00000000
+"52211"=dword:00000000
+"220992"=dword:00000000
+"248757"=dword:00000000
+"295677"=dword:00000000
+"300498"=dword:00000000
+"295591"=dword:00000000
+"295649"=dword:00000000
+"295648"=dword:00000000
+"295634"=dword:00000000
+"295622"=dword:00000000
+"300553"=dword:00000000
+"303004"=dword:00000000
+"295642"=dword:00000000
+"295629"=dword:00000000
+"295659"=dword:00000000
+"295664"=dword:00000000
+"295623"=dword:00000000
+"295650"=dword:00000000
+"321686"=dword:00000000
+"295624"=dword:00000000
+"295633"=dword:00000000
+"295647"=dword:00000000
+"295663"=dword:00000000
+"295632"=dword:00000000
+"295626"=dword:00000000
+"295639"=dword:00000000
+"300691"=dword:00000000
+"295657"=dword:00000000
+"295645"=dword:00000000
+"302999"=dword:00000000
+"295662"=dword:00000000
+"295644"=dword:00000000
+"314279"=dword:00000000
+"295640"=dword:00000000
+"295628"=dword:00000000
+"295654"=dword:00000000
+"295652"=dword:00000000
+"295620"=dword:00000000
+"295636"=dword:00000000
+"295641"=dword:00000000
+"295658"=dword:00000000
+"321609"=dword:00000000
+"295646"=dword:00000000
+"295621"=dword:00000000
+"295607"=dword:00000000
+"295631"=dword:00000000
+"295656"=dword:00000000
+"117847"=dword:00000000
+"445281"=dword:00000000
+"445282"=dword:00000000
+"445283"=dword:00000000
+"114673"=dword:00000000
+"558536"=dword:00000000
+"524430"=dword:00000000
+"579061"=dword:00000000
+"562456"=dword:00000000
+"562073"=dword:00000000
+"576359"=dword:00000000
+"575819"=dword:00000000
+"426067"=dword:00000000
+"426068"=dword:00000000
+"427162"=dword:00000000
+"426329"=dword:00000000
+"426517"=dword:00000000
+"426141"=dword:00000000
+"426341"=dword:00000000
+"426405"=dword:00000000
+"426352"=dword:00000000
+"431491"=dword:00000000
+"447696"=dword:00000000
+"352231"=dword:00000000
+"371986"=dword:00000000
+"379198"=dword:00000000
+"379199"=dword:00000000
+"379201"=dword:00000000
+"416166"=dword:00000000
+"408412"=dword:00000000
+"417607"=dword:00000000
+"417764"=dword:00000000
+"417438"=dword:00000000
+"450820"=dword:00000000
+"408401"=dword:00000000
+"408402"=dword:00000000
+"410853"=dword:00000000
+"451170"=dword:00000000
+"410790"=dword:00000000
+"451171"=dword:00000000
+"412456"=dword:00000000
+"416091"=dword:00000000
+"444782"=dword:00000000
+"412483"=dword:00000000
+"430672"=dword:00000000
+"361912"=dword:00000000
+"52008"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Page]
 "Use Documents Settings"=dword:00000001
 "Print Background"=dword:00000000
 "Print White Items Black"=dword:00000000
-"Dpi default flag "=dword:00000001
+"Dpi default flag "=dword:00000000
 "Print Scale Draft Edges"=dword:00000000
 "PrintTif Dpi"=dword:00000000
 "Use Printer Margins"=dword:00000001
@@ -5836,7 +5936,7 @@ REGEDIT4
 "Top Margin"="0.00423333333333333"
 "Left Margin"="0.00508"
 "Right Margin"="0.00508"
-"Printer"="HP Laserjet 5000"
+"Printer"="\\\\ws22\\HP Laserjet 5000"
 "Print Scale (Drawings)"="1"
 "Print Scale (Parts And Assemblies)"="1"
 "Print Fit"=dword:00000000
@@ -5878,20 +5978,20 @@ REGEDIT4
 "Check out-of-date lightweight components"=dword:00000000
 "Large Assembly AutoSave"=dword:00000000
 "Chamfer Preview Type"=dword:00000001
-"Mate Animation Speed"="1.5"
+"Mate Animation Speed"="0.5"
 "Wireframe Tessellation Number"=dword:00000032
 "Enable Layer Mask"=dword:0000001b
 "Large Assy Target Frame Rate"=dword:00000014
-"Tessellation Number"=dword:00000057
+"Tessellation Number"=dword:00000050
 "Turn On Dynamic Preview"=dword:00000001
 "EMD Faces"=dword:00000001
-"Update mass properties while saving document"=dword:00000001
+"Update mass properties while saving document"=dword:00000000
 "Auto Curvature Generation"=dword:00000000
 "Use Optimal Wireframe Number"=dword:00000001
 "OpenGL Print Statistics"=dword:00000000
-"Target Frame Rate"=dword:00000009
+"Target Frame Rate"=dword:0000000e
 "OpenGL Display FrameCount"=dword:00000000
-"OpenGL MultiSample"=dword:00000006
+"OpenGL MultiSample"=dword:00000003
 "p13181"=dword:00000000
 "Show Lightweight Option"=dword:00000001
 "Enable Multibody Performance Improvements 1"=dword:00000001
@@ -5910,7 +6010,7 @@ REGEDIT4
 "Purge All Non Active Configurations"=dword:00000000
 "Drawing Shares Model Tessellation"=dword:00000001
 "Graphics Dynamic Section"=dword:00000000
-"Show Preview While Loading"=dword:00000000
+"Show Preview While Loading"=dword:00000001
 "Large Assembly Settings"=dword:51161e1c
 "Large Assembly Settings2"=dword:00000000
 "Highlight All of Feature"=dword:00000000
@@ -5921,7 +6021,7 @@ REGEDIT4
 "Enable SSJ SubEdge Starting Beta 2005"=dword:00000001
 "Enhance AutoHide For Large Assembly"=dword:00000000
 "Custom Thread Preview Type"=dword:00000001
-"Custom Thread EndSpec Type"=dword:00000004
+"Custom Thread EndSpec Type"=dword:00000001
 "Force enable check on import errors"=dword:00000000
 "3D PMI Compare Unique Data Color"=dword:000000ff
 "3D PMI Compare Modified Data Color"=dword:0000ffff
@@ -6155,22 +6255,22 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\ATI Technologies Inc.\Radeon\V008_OG_V4211931]
 "Workarounds"=dword:04000085
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\ATI Technologies Inc.\Radeon Pro]
-"Workarounds"=dword:84000004
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\ATI Technologies Inc.\Radeon Pro\V001_OG_A4514009]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\ATI Technologies Inc.\Radeon (TM) Pro WX]
 "workarounds"=dword:04000005
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\ATI Technologies Inc.\Radeon Pro WX]
+"Workarounds"=dword:04000005
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\ATI Technologies Inc.\Rage]
 "Workarounds"=dword:00000010
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Current]
 "Vendor"="NVIDIA Corporation"
-"Renderer"="Quadro 600/PCIe/SSE2"
+"Renderer"="Quadro K2200/PCIe/SSE2"
 "Workarounds"=dword:04000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\DATE]
-"Workarounds"=dword:0133c643
+"Workarounds"=dword:0133c84d
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Diamond Multimedia]
 "Workarounds"=dword:00000010
@@ -6601,6 +6701,21 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\Quadro FX GRID K280Q]
 "Workarounds"=dword:00030408
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\Quadro FX GRID M10-0Q]
+"Workarounds"=dword:00010008
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\Quadro FX GRID M10-1Q]
+"Workarounds"=dword:00020008
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\Quadro FX GRID M10-2Q]
+"Workarounds"=dword:00030408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\Quadro FX GRID M10-4Q]
+"Workarounds"=dword:00030408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\Quadro FX GRID M10-8Q]
+"Workarounds"=dword:00031408
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\Quadro FX GRID M6-0Q]
 "Workarounds"=dword:00010008
 
@@ -6825,6 +6940,21 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\Quadro P6000]
 "Workarounds"=dword:00031408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\Tesla M]
+"Workarounds"=dword:00030408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\Tesla M10]
+"Workarounds"=dword:00030408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\Tesla M6]
+"Workarounds"=dword:00030408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\Tesla M60]
+"Workarounds"=dword:00030408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\NV40\TITAN]
+"Workarounds"=dword:00030408
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\Other]
 "Workarounds"=dword:00000001
@@ -7513,34 +7643,49 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\FirePro W9100\V002_OG_A4010219]
 "Workarounds"=dword:00030408
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\FirePro WX]
+"Workarounds"=dword:00030408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\FirePro WX 2100]
+"Workarounds"=dword:00020408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\FirePro WX 3100]
+"Workarounds"=dword:00030408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\FirePro WX 4100]
+"Workarounds"=dword:00030408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\FirePro WX 5100]
+"Workarounds"=dword:00030408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\FirePro WX 7100]
+"Workarounds"=dword:00030408
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\FirePro WX 9100]
+"Workarounds"=dword:00030408
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\MOBILITY FireGL V5200]
 "Workarounds"=dword:00000040
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\MOBILITY FireGL V5250]
 "Workarounds"=dword:00000040
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\Radeon Pro WX]
-"Workarounds"=dword:00000000
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\Radeon (TM) Pro WX]
+"Workarounds"=dword:00030408
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\Radeon Pro WX\V001_OG_A4514009]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\Radeon Pro WX]
 "Workarounds"=dword:00030408
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\Radeon Pro WX 4100]
-"Workarounds"=dword:00000000
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\Radeon Pro WX 4100\V001_OG_A4514009]
 "Workarounds"=dword:00030408
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\Radeon Pro WX 5100]
-"Workarounds"=dword:00000000
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\Radeon Pro WX 5100\V001_OG_A4514009]
 "Workarounds"=dword:00030408
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\Radeon Pro WX 7100]
-"Workarounds"=dword:00000000
+"Workarounds"=dword:00030408
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\Radeon Pro WX 7100\V001_OG_A4514009]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\R420\Radeon Pro WX 9100]
 "Workarounds"=dword:00030408
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\RV700]
@@ -7594,10 +7739,10 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\RV800\FirePro W\V002_OG_A4010219]
 "Workarounds"=dword:00030008
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\RV800\Radeon Pro WX]
-"Workarounds"=dword:00000000
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\RV800\Radeon (TM) Pro WX]
+"Workarounds"=dword:00030408
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\RV800\Radeon Pro WX\V001_OG_A4514009]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\RV800\Radeon Pro WX]
 "Workarounds"=dword:00030408
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Gl2Shaders\RV900]
@@ -7816,6 +7961,12 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\NVIDIA Corporation\RIVA TNT\V001_FG_K513011241_X513011241]
 "Workarounds"=dword:53001000
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\NVIDIA Corporation\Tesla]
+"Workarounds"=dword:04000000
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\NVIDIA Corporation\TITAN]
+"Workarounds"=dword:04000000
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Performance\Graphics\Hardware\Parallels and ATI Technologies Inc.]
 "Workarounds"=dword:00000010
 
@@ -7866,7 +8017,11 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\PhotoView]
 "Maintenance Expiry Check Done"=dword:00000000
+"PhotoView 360 Survey Done"=dword:00000000
+"PhotoView 360 Invoke Count"=dword:00000000
 "LoadedAtStartup"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Pinned File List]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Planes]
 "Default Plane Front Color"=dword:00f78453
@@ -7937,7 +8092,7 @@ REGEDIT4
 "Snapshot dialog enabled"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Recent Macro File List]
-"File1"="C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2017\\templates\\Macro1.swp"
+"File1"=""
 "File2"=""
 "File3"=""
 "File4"=""
@@ -8111,7 +8266,8 @@ REGEDIT4
 "Include Content Alphanumeric Search"=dword:00000001
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Search\Recent Command Searches]
-"Search Strings"="IMPORT;3D;BLOC;MASS;COSMETI;TOOL;TOOLBOX;COMBI;"
+"Search Strings"="IMPORT;3D;BLOC;MASS;COSMETI;TOOL;TOOLBOX;COMBI;CONFI;"
+"COSMET"="33136"
 "IMPORT"="34416"
 "3D"="33505"
 "BLOC"="38409"
@@ -8120,17 +8276,19 @@ REGEDIT4
 "TOOL"="59533"
 "TOOLBOX"="571"
 "COMBI"="37911"
+"CONFI"="40860"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Security]
+"EULA Accepted 2017 SP5.0 PTWSPGIBBSPC adjutant"="Yes"
 "EULA Accepted 2017 SP3.0 WS22 adjutant"="Yes"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Settings]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Setup]
-"Install Date Stamp"="22.05.2018 13:48:20"
+"Install Date Stamp"="11.06.2020 12:44:02"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\SheetMetal]
-"Link To Form Tool"=dword:00000000
+"Link To Form Tool"=dword:00000001
 "Link To Thickness"=dword:00000000
 "MBSMoptions"=dword:0000003f
 "Enable New MBSM Architecture"=dword:00000001
@@ -8225,14 +8383,32 @@ REGEDIT4
 "GenericFastener_Ansi Inch###28"="SHCSCREW_AI_BS_PN"
 "GenericFastener_Ansi Inch###25"="SHCSCREW_AI_BS_PN"
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\EYEBOLT580_DIN_BS_PN]
+"LastUsedSetting"="1=M20^10=20^20=71^30=30^31=72^32=19^33=40^34=40^35=5^36=16.4^37=1.6^38=2^39=14^40=8^50=^60=Simplified^61=N^70=2.5^71=17.252^900=^910=^920=^930=^940=^998=^313=Collar Eyebolt^314=M20^312=DIN 580^999=Eyebolt DIN 358-M20-N^1000=Eyebolt DIN 580^1001=Eyebolt DIN 580 - M20"
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\FWCD6340_DIN_WASHERS_PN]
 "LastUsedSetting"="1=25^10=M24^20=25^30=60^40=8^998=^313=Washer For Clamping Devices^314=25^312=DIN 6340^999=DIN 6340-25^1000=Washer DIN 6340^1001=Washer DIN 6340 - 25"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\HBOLTS7990_DIN_BS_PN]
-"LastUsedSetting"="1=M20^10=Washer-face^20=115^25=23.5^30=17.252^40=Simplified^50=30^60=2.5^70=13^80=45^90=20^100=30^110=0.8^120=0.8^125=27.7^130=W^800=N^998=^313=Hexagon Head Bolt Structural^314=M20 X 115^312=DIN 7990^999=DIN 7990 - M20 x 115-WN^1000=Bolt DIN 7990^1001=Bolt DIN 7990 - M20 x 115"
+"LastUsedSetting"="1=M16^10=Washer-face^20=40^25=21^30=13.797^40=Simplified^50=24^60=2^70=10^80=45^90=16^100=30^110=0.6^120=0.8^125=22^130=W^800=N^998=^313=Hexagon Head Bolt Structural^314=M16 X 40^312=DIN 7990^999=DIN 7990 - M16 x 40-WN^1000=Bolt DIN 7990^1001=Bolt DIN 7990 - M16 x 40"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\HNUT24032_DIN_NUTS_PN]
+"LastUsedSetting"="1=M16^10=Washer-face^20=24^30=14^32=Simplified^40=14.8^45=2^50=16^60=0.8^70=W^80=N^998=^313=Regular Hexagon Nut Style 1  Grades AB^314=M16^312=DIN EN 24032^999=Hexagon Nut ISO 4032 - M16 - W - N^1000=Hexagon nut ISO 4032^1001=Hexagon nut ISO 4032 - M16"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\HNUT24033_DIN_NUTS_PN]
+"LastUsedSetting"="1=M16^10=Washer-face^20=24^30=14^32=Simplified^40=16.4^45=2^50=16^60=0.8^70=W^80=N^998=^313=High Hexagon Nut Style 2 Grades AB^314=M16^312=DIN EN 24033^999=Hexagon Nut ISO 4033 - M16 - W - N^1000=Hexagon nut ISO 4033^1001=Hexagon nut ISO 4033 - M16"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\HNUT24034_DIN_NUTS_PN]
+"LastUsedSetting"="1=M16^10=24^20=14^30=Simplified^40=15.9^50=2^60=16^70=N^998=^313=Regular Hexagon Nut Style 1 Grade C^314=M16^312=DIN EN 24034^999=Hexagon Nut ISO 4034 - M16 - N^1000=Hexagon nut ISO 4034^1001=Hexagon nut ISO 4034 - M16"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\HNUT4032_ISO_NUTS_PN]
 "LastUsedSetting"="1=M12^10=Washer-face^20=18^30=10.2^32=Simplified^40=10.8^45=1.75^50=12^60=0.6^70=W^80=N^998=^313=Hexagon Nut Style 1 Grades AB^314=M12^312=ISO 4032^999=ISO - 4032 - M12 - W - N^1000=Hexagon nut ISO 4032^1001=Hexagon nut ISO 4032 - M12"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\HNUT6330_DIN_NUTS_PN]
+"LastUsedSetting"="1=M16^10=24^20=14^30=Simplified^40=24^50=2^60=16^61=16^70=N^80=22^90=18^998=^313=Hexagon Nut - 1.5D^314=M16^312=DIN 6330^999=DIN 6330-B-M16-N^1000=Hexagon nut DIN 6330^1001=Hexagon nut DIN 6330 - B M16"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\HNUT6331_DIN_NUTS_PN]
+"LastUsedSetting"="1=M20^10=30^20=17.5^30=Simplified^40=30^43=37^45=6^50=2.5^60=20^61=20^70=N^998=^313=Hexagon Collar Nut - 1.5D^314=M20^312=DIN 6331^999=DIN 6331-M20-N^1000=Hexagon nut DIN 6331^1001=Hexagon nut DIN 6331 - M20"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\HNUT6915_DIN_NUTS_PN]
 "LastUsedSetting"="1=M12^20=22^30=10.2^32=Simplified^40=10^45=1.75^50=12^80=N^998=^313=Hexagon Nut For High-Strength Structural Bolting^314=M12^312=DIN 6915^999=Hexagon Nut DIN 6915 - M12 - N^1000=Nut DIN 6915^1001=Nut DIN 6915 - M12"
@@ -8240,17 +8416,32 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\SHCSCREW912_DIN_BS_PN]
 "LastUsedSetting"="1=M20^10=65^30=65^32=Simplified^33=N^35=20^40=17.252^45=2.5^60=30^100=20^110=17.05^130=45^150=0.8^155=2^160=10^998=^313=Hexagon Socket Head Cap Screw^314=M20 X 65^312=DIN 912^999=DIN 912 M20 x 65 --- 65N^1000=Hexagon socket head cap screw DIN 912^1001=Hexagon socket head cap screw DIN 912 - M20 x 65"
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\STUD1_AM_BS_PN]
+"LastUsedSetting"="1=M20^10=300^25=SimCosSch^32=Cosmetic^33=C^35=20^40=17.252^45=2.5^50=300^998=^313=^314=^312=^999=AM -- M20 x 300  C"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\STUD_1D938_DIN_BS_PN]
+"LastUsedSetting"="1=M20^5=(2.5)^10=60^15=Sk6^20=20^24=3.2^26=6.3^28=0.8^30=46^32=Simplified^33=N^35=20^40=17.252^45=2.5^130=45^990= x ^998=^313=Stud - 1D^314=M20 X 60^312=DIN 938^999=DIN 938 - M20  x  60 --- 46N^1000=Stud DIN 938^1001=Stud DIN 938 - M20  x  60"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\STUD_25D940_DIN_BS_PN]
+"LastUsedSetting"="1=M20^5=(2.5)^10=60^15=Sk6^20=50^24=6.3^26=6.3^28=1^30=46^32=Simplified^33=N^35=20^40=17.252^45=2.5^130=45^990= x ^998=^313=Stud - 2.5D^314=M20 X 60^312=DIN 940^999=DIN 940 - M20  x  60 --- 46N^1000=Stud DIN 940^1001=Stud DIN 940 - M20  x  60"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\STUD_25DMFS949_2_DIN_BS_PN]
+"LastUsedSetting"="1=M5^5=(0.8)^10=25^20=13^24=2^26=2^28=0.4^30=13^32=Simplified^33=N^35=5.025^40=4.11^45=0.8^130=45^998=^313=Stud - 2.5D MFS Type B^314=M5 X 25^312=DIN 949-2^999=DIN 949 - B MFS M5 x 25 --- 13N^1000=Stud DIN 949 - B^1001=Stud DIN 949 - B - M5 x 25"
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Solidworks Toolbox Browser\STUD_2D835_DIN_BS_PN]
+"LastUsedSetting"="1=M20^5=(2.5)^10=60^15=Sk6^20=40^24=6.3^26=6.3^28=0.8^30=46^32=Simplified^33=N^35=20^40=17.252^45=2.5^130=45^990= x ^998=^313=Stud - 2D^314=M20 X 60^312=DIN 835^999=DIN 835 - M20  x  60 --- 46N^1000=Stud DIN 835^1001=Stud DIN 835 - M20  x  60"
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\SW Event Log]
 "Send Feedback Enabled"=dword:00000000
-"Last Sync Date"="05/22/2018 14:00:05"
+"Last Sync Date"="06/17/2020 09:38:28"
 "Feedback Remind Date"=""
 "File Have Been Sent"=dword:00000000
 "New Dump File Available"=dword:00000000
-"Finished Last Time"=dword:00000001
-"Last Date Code"="25/2017109"
-"Check In"=dword:00000409
+"Finished Last Time"=dword:00000000
+"Last Date Code"="25/2017317"
+"Check In"=dword:00000009
 "Idle"=dword:00000000
-"Last Settings Time"=dword:5ee86b14
+"Last Settings Time"=dword:5f282d21
 "Disable Crash Diagnosis"=dword:00000000
 "Force Sequence"=dword:00000000
 
@@ -8474,7 +8665,7 @@ REGEDIT4
 "Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext1]
-"contextid"="2"
+"contextid"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext1\GB0]
 "Btn0"="2,41160"
@@ -8514,7 +8705,7 @@ REGEDIT4
 "Btn1"="3,41175"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext2]
-"contextid"="1"
+"contextid"="2"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext2\GB0]
 "Btn0"="2,41160"
@@ -8541,20 +8732,17 @@ REGEDIT4
 "Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext3]
-"contextid"="5"
+"contextid"="3"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext3\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext3\GB1]
 "Btn0"="2,40954"
-"Btn1"="2,41161"
-"Btn2"="2,41165"
-"Btn3"="2,41166"
-"Btn4"="2,41172"
-"Btn5"="2,41162"
-"Btn6"="2,41016"
-"Btn7"="2,41017"
+"Btn1"="2,41154"
+"Btn2"="2,41166"
+"Btn3"="2,41172"
+"Btn4"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext3\GB2]
 "Btn0"="2,41163"
@@ -8567,8 +8755,7 @@ REGEDIT4
 "Btn1"="3,41168"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext3\GB4]
-"Btn0"="3,41174"
-"Btn1"="3,41175"
+"Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext4]
 "contextid"="4"
@@ -8588,17 +8775,20 @@ REGEDIT4
 "Btn0"="2,41152"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext5]
-"contextid"="3"
+"contextid"="5"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext5\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext5\GB1]
 "Btn0"="2,40954"
-"Btn1"="2,41154"
-"Btn2"="2,41166"
-"Btn3"="2,41172"
-"Btn4"="2,41162"
+"Btn1"="2,41161"
+"Btn2"="2,41165"
+"Btn3"="2,41166"
+"Btn4"="2,41172"
+"Btn5"="2,41162"
+"Btn6"="2,41016"
+"Btn7"="2,41017"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext5\GB2]
 "Btn0"="2,41163"
@@ -8611,16 +8801,19 @@ REGEDIT4
 "Btn1"="3,41168"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext5\GB4]
-"Btn0"="2,41156"
+"Btn0"="3,41174"
+"Btn1"="3,41175"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext6]
-"contextid"="7"
+"contextid"="6"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext6\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext6\GB1]
-"Btn0"="2,41162"
+"Btn0"="2,41166"
+"Btn1"="2,41016"
+"Btn2"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext6\GB2]
 "Btn0"="2,41163"
@@ -8632,19 +8825,14 @@ REGEDIT4
 "Btn0"="3,40977"
 "Btn1"="3,41168"
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext6\GB4]
-"Btn0"="2,41157"
-
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext7]
-"contextid"="6"
+"contextid"="7"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext7\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext7\GB1]
-"Btn0"="2,41166"
-"Btn1"="2,41016"
-"Btn2"="2,41162"
+"Btn0"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext7\GB2]
 "Btn0"="2,41163"
@@ -8656,14 +8844,24 @@ REGEDIT4
 "Btn0"="3,40977"
 "Btn1"="3,41168"
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext7\GB4]
+"Btn0"="2,41157"
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext8]
-"contextid"="9"
+"contextid"="8"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext8\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext8\GB1]
-"Btn0"="2,41162"
+"Btn0"="2,40954"
+"Btn1"="2,41161"
+"Btn2"="2,41165"
+"Btn3"="2,41166"
+"Btn4"="2,41172"
+"Btn5"="2,41162"
+"Btn6"="2,41016"
+"Btn7"="2,41017"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext8\GB2]
 "Btn0"="2,41163"
@@ -8676,20 +8874,13 @@ REGEDIT4
 "Btn1"="3,41168"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext9]
-"contextid"="8"
+"contextid"="9"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext9\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext9\GB1]
-"Btn0"="2,40954"
-"Btn1"="2,41161"
-"Btn2"="2,41165"
-"Btn3"="2,41166"
-"Btn4"="2,41172"
-"Btn5"="2,41162"
-"Btn6"="2,41016"
-"Btn7"="2,41017"
+"Btn0"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\AssyContext\Tab11\TabContext9\GB2]
 "Btn0"="2,41163"
@@ -9364,7 +9555,7 @@ REGEDIT4
 "Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext1]
-"contextid"="2"
+"contextid"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext1\GB0]
 "Btn0"="2,41160"
@@ -9404,7 +9595,7 @@ REGEDIT4
 "Btn1"="3,41175"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext2]
-"contextid"="1"
+"contextid"="2"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext2\GB0]
 "Btn0"="2,41160"
@@ -9431,20 +9622,17 @@ REGEDIT4
 "Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext3]
-"contextid"="5"
+"contextid"="3"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext3\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext3\GB1]
 "Btn0"="2,40954"
-"Btn1"="2,41161"
-"Btn2"="2,41165"
-"Btn3"="2,41166"
-"Btn4"="2,41172"
-"Btn5"="2,41162"
-"Btn6"="2,41016"
-"Btn7"="2,41017"
+"Btn1"="2,41154"
+"Btn2"="2,41166"
+"Btn3"="2,41172"
+"Btn4"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext3\GB2]
 "Btn0"="2,41163"
@@ -9457,8 +9645,7 @@ REGEDIT4
 "Btn1"="3,41168"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext3\GB4]
-"Btn0"="3,41174"
-"Btn1"="3,41175"
+"Btn0"="2,41156"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext4]
 "contextid"="4"
@@ -9478,17 +9665,20 @@ REGEDIT4
 "Btn0"="2,41152"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext5]
-"contextid"="3"
+"contextid"="5"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext5\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext5\GB1]
 "Btn0"="2,40954"
-"Btn1"="2,41154"
-"Btn2"="2,41166"
-"Btn3"="2,41172"
-"Btn4"="2,41162"
+"Btn1"="2,41161"
+"Btn2"="2,41165"
+"Btn3"="2,41166"
+"Btn4"="2,41172"
+"Btn5"="2,41162"
+"Btn6"="2,41016"
+"Btn7"="2,41017"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext5\GB2]
 "Btn0"="2,41163"
@@ -9501,16 +9691,19 @@ REGEDIT4
 "Btn1"="3,41168"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext5\GB4]
-"Btn0"="2,41156"
+"Btn0"="3,41174"
+"Btn1"="3,41175"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext6]
-"contextid"="7"
+"contextid"="6"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext6\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext6\GB1]
-"Btn0"="2,41162"
+"Btn0"="2,41166"
+"Btn1"="2,41016"
+"Btn2"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext6\GB2]
 "Btn0"="2,41163"
@@ -9522,19 +9715,14 @@ REGEDIT4
 "Btn0"="3,40977"
 "Btn1"="3,41168"
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext6\GB4]
-"Btn0"="2,41157"
-
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext7]
-"contextid"="6"
+"contextid"="7"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext7\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext7\GB1]
-"Btn0"="2,41166"
-"Btn1"="2,41016"
-"Btn2"="2,41162"
+"Btn0"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext7\GB2]
 "Btn0"="2,41163"
@@ -9546,14 +9734,24 @@ REGEDIT4
 "Btn0"="3,40977"
 "Btn1"="3,41168"
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext7\GB4]
+"Btn0"="2,41157"
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext8]
-"contextid"="9"
+"contextid"="8"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext8\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext8\GB1]
-"Btn0"="2,41162"
+"Btn0"="2,40954"
+"Btn1"="2,41161"
+"Btn2"="2,41165"
+"Btn3"="2,41166"
+"Btn4"="2,41172"
+"Btn5"="2,41162"
+"Btn6"="2,41016"
+"Btn7"="2,41017"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext8\GB2]
 "Btn0"="2,41163"
@@ -9566,20 +9764,13 @@ REGEDIT4
 "Btn1"="3,41168"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext9]
-"contextid"="8"
+"contextid"="9"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext9\GB0]
 "Btn0"="2,41160"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext9\GB1]
-"Btn0"="2,40954"
-"Btn1"="2,41161"
-"Btn2"="2,41165"
-"Btn3"="2,41166"
-"Btn4"="2,41172"
-"Btn5"="2,41162"
-"Btn6"="2,41016"
-"Btn7"="2,41017"
+"Btn0"="2,41162"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CommandManager\PartContext\Tab13\TabContext9\GB2]
 "Btn0"="2,41163"
@@ -9900,14 +10091,110 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars]
 "ToolBar Count"=dword:ffffffff
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59425]
-"ModuleName"="{F051E3EF-397E-407F-8F1D-CDD4E8814D28}"
-"UserID"=dword:00000001
-"ToolbarID"=dword:0000e821
-"ShowInDocumentType"=dword:ffffffff
-"CommandList"=hex: c2,a2,00,00,
-"UserCommandList"=hex: 00,00,00,00,
-"Title"="GibbsCAM Add-In"
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59534]
+"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
+"ToolbarID"=dword:0000e88e
+"CommandList"=hex: 11,aa,00,00,
+"INTERNAL"=dword:00000001
+"UserID"=dword:0000e88e
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59535]
+"ModuleName"="{581DC7A4-CD86-41CA-B950-1363737DB503}"
+"ToolbarID"=dword:0000e88f
+"CommandList"=hex: da,c8,00,00,
+"INTERNAL"=dword:00000001
+"UserID"=dword:0000e88f
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59536]
+"ModuleName"="{F80FA0F1-B13D-11D4-944A-000629992CFE}"
+"ToolbarID"=dword:0000e890
+"CommandList"=hex: 17,aa,00,00,16,aa,00,00,18,aa,00,00,19,aa,00,00,1a,aa,00,00,1b,aa,00,00,1c,aa,00,00,00,00,00,00,1d,aa,00,00,1e,aa,00,00,24,aa,00,00,21,aa,00,00,22,aa,00,00,00,00,00,00,23,aa,00,00,10,aa,00,00,
+"INTERNAL"=dword:00000002
+"UserID"=dword:0000e890
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59537]
+"ModuleName"="{ED78333F-D5DB-11D4-BD5A-00C04F019809}"
+"ToolbarID"=dword:0000e891
+"CommandList"=hex: 25,aa,00,00,26,aa,00,00,27,aa,00,00,28,aa,00,00,29,aa,00,00,
+"INTERNAL"=dword:00000001
+"UserID"=dword:0000e891
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59538]
+"ModuleName"="{7CF8CA03-1DCE-11D1-A89B-0020AF351FA9}"
+"ToolbarID"=dword:0000e892
+"CommandList"=hex: 2a,aa,00,00,2b,aa,00,00,
+"INTERNAL"=dword:00000002
+"UserID"=dword:0000e892
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59539]
+"ModuleName"="{331D8C8F-4201-48B0-9783-019EB2D638D2}"
+"ToolbarID"=dword:0000e893
+"CommandList"=hex: 2e,aa,00,00,f,aa,00,00,2d,aa,00,00,2c,aa,00,00,
+"INTERNAL"=dword:00000002
+"UserID"=dword:0000e893
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59540]
+"ModuleName"="{896AAE7A-80D1-4F4C-ADD8-0A61F50AC507}"
+"ToolbarID"=dword:0000e894
+"CommandList"=hex: 34,aa,00,00,33,aa,00,00,32,aa,00,00,31,aa,00,00,30,aa,00,00,2f,aa,00,00,
+"INTERNAL"=dword:00000001
+"UserID"=dword:0000e894
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59541]
+"ModuleName"="{CD0C64E9-8BDA-11D6-B09D-00065B87F34E}"
+"ToolbarID"=dword:0000e895
+"CommandList"=hex: 35,aa,00,00,00,00,00,00,36,aa,00,00,00,00,00,00,37,aa,00,00,38,aa,00,00,39,aa,00,00,3a,aa,00,00,3b,aa,00,00,00,00,00,00,3c,aa,00,00,3d,aa,00,00,3e,aa,00,00,00,00,00,00,3f,aa,00,00,40,aa,00,00,41,aa,00,00,ff,ff,ff,ff,bd,55,ff,ff,bc,55,ff,ff,ff,ff,ff,ff,bb,55,ff,ff,00,00,00,00,45,aa,00,00,ff,ff,ff,ff,b9,55,ff,ff,ff,ff,ff,ff,
+"INTERNAL"=dword:00000001
+"UserID"=dword:0000e895
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59542]
+"ModuleName"="{2F5F0527-C233-4240-8BAF-10B10A2EA876}"
+"ToolbarID"=dword:0000e896
+"CommandList"=hex: 56,aa,00,00,84,aa,00,00,85,aa,00,00,86,aa,00,00,4b,aa,00,00,
+"INTERNAL"=dword:00000001
+"UserID"=dword:0000e896
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59544]
+"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
+"ToolbarID"=dword:0000e898
+"CommandList"=hex: a0,a6,00,00,a1,a6,00,00,a2,a6,00,00,a3,a6,00,00,a4,a6,00,00,
+"INTERNAL"=dword:00000001
+"UserID"=dword:0000e898
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59545]
+"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
+"ToolbarID"=dword:0000e899
+"CommandList"=hex: 5e,aa,00,00,00,00,00,00,5d,aa,00,00,5c,aa,00,00,00,00,00,00,5b,aa,00,00,5a,aa,00,00,59,aa,00,00,00,00,00,00,58,aa,00,00,57,aa,00,00,55,aa,00,00,00,00,00,00,54,aa,00,00,53,aa,00,00,00,00,00,00,52,aa,00,00,51,aa,00,00,50,aa,00,00,4f,aa,00,00,00,00,00,00,4e,aa,00,00,
+"INTERNAL"=dword:00000001
+"UserID"=dword:0000e899
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59546]
+"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
+"ToolbarID"=dword:0000e89a
+"CommandList"=hex: 83,aa,00,00,82,aa,00,00,00,00,00,00,81,aa,00,00,80,aa,00,00,7f,aa,00,00,7e,aa,00,00,00,00,00,00,7d,aa,00,00,7c,aa,00,00,7b,aa,00,00,7a,aa,00,00,
+"INTERNAL"=dword:00000001
+"UserID"=dword:0000e89a
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59547]
+"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
+"ToolbarID"=dword:0000e89b
+"CommandList"=hex: 78,aa,00,00,77,aa,00,00,76,aa,00,00,00,00,00,00,75,aa,00,00,74,aa,00,00,00,00,00,00,73,aa,00,00,72,aa,00,00,71,aa,00,00,70,aa,00,00,6f,aa,00,00,
+"INTERNAL"=dword:00000001
+"UserID"=dword:0000e89b
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59548]
+"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
+"ToolbarID"=dword:0000e89c
+"CommandList"=hex: 6e,aa,00,00,6d,aa,00,00,6c,aa,00,00,6b,aa,00,00,00,00,00,00,6a,aa,00,00,69,aa,00,00,68,aa,00,00,67,aa,00,00,66,aa,00,00,00,00,00,00,65,aa,00,00,64,aa,00,00,63,aa,00,00,62,aa,00,00,00,00,00,00,61,aa,00,00,f0,a9,00,00,60,aa,00,00,ff,ff,ff,ff,a0,55,ff,ff,
+"INTERNAL"=dword:00000001
+"UserID"=dword:0000e89c
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Custom API Toolbars\59549]
+"ModuleName"="{CEAC97A6-01F7-11D3-9398-00C04F79BFFE}"
+"ToolbarID"=dword:0000e89d
+"CommandList"=hex: f7,a9,00,00,f6,a9,00,00,00,00,00,00,f5,a9,00,00,f4,a9,00,00,00,00,00,00,f3,a9,00,00,f2,a9,00,00,
+"INTERNAL"=dword:00000001
+"UserID"=dword:0000e89d
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\CustomMenu]
 "Menu Pinned"=dword:00000001
@@ -9916,60 +10203,91 @@ REGEDIT4
 "uiUnitsDimStdDlg_c"="0,1,-1,-1,-1,-1,376,210,676,470"
 "uiNewDocDlg_c"="0,1,-1,-1,-1,-1,256,136,974,673"
 "uiAddInDlg_c"="0,1,-1,-1,-1,-1,483,98,912,625"
-"uiInsertCompExistingDveDlg3_c"="0,1,-1,-1,-1,-1,0,0,233,612"
+"uiInsertCompExistingDveDlg3_c"="0,1,-1,-1,-1,-1,0,0,233,643"
 "uiInsertCompExistingDveDlg3_copts"="dexps_7_prv_1_tfmexps_0_rotdlg_1_"
 "uiNamedViewDveDlg_c"="0,1,-1,-1,-1,-1,0,0,200,904"
 "uiNamedViewDveDlg_copts"="dexps_7167_"
-"uiDVEDefaultDialog_c"="0,1,-1,-1,-1,-1,0,0,233,67"
-"uiLinePropDlg_c"="0,1,-1,-1,-1,-1,0,0,217,520"
+"uiDVEDefaultDialog_c"="0,1,-1,-1,-1,-1,0,0,253,67"
+"uiWWGridCtrl_copts"="75,99"
+"uiNewWhatsWrongDlg_c"="0,1,-1,-1,-1,-1,252,226,990,433"
+"uiCustomizePropSheet_c"="0,1,-1,-1,-1,-1,275,283,934,961"
+"uiMeasureDlg_c"="0,1,-1,-1,-1,-1,0,0,294,161"
+"uiLinePropDlg_c"="0,1,-1,-1,-1,-1,0,0,249,487"
 "uiLinePropDlg_copts"="tfmexps_0_dexps_87_"
-"uiHealingDveDlg_copts"="tfmexps_0_dexps_7_"
-"uiHealingDveDlg_c"="0,1,-1,-1,-1,-1,0,0,229,547"
-"uiDveApiPage2_copts"="tfmexps_0_"
-"uiDveApiPage2_c"="0,1,-1,-1,-1,-1,0,0,212,960"
 "uiPointPropDlg_c"="0,1,-1,-1,-1,-1,0,0,249,323"
 "uiPointPropDlg_copts"="dexps_31_tfmexps_0_"
-"uiWWGridCtrl_copts"="75,99"
-"uiNewWhatsWrongDlg_c"="0,1,-1,-1,-1,-1,0,0,738,200"
-"uiDveEndSpecDlg_copts"="tfmexps_0_dexps_16082_"
-"uiDveEndSpecDlg_c"="0,1,-1,-1,-1,-1,0,0,249,367"
+"uiComPropSkSegDlg_c"="0,1,-1,-1,-1,-1,0,0,245,395"
+"uiComPropSkSegDlg_copts"="dexps_119_tfmexps_0_"
+"uiParamDlg"="0,1,-1,-1,-1,-1,915,535,1128,659"
+"uiDVEMultiDimPropPageValue_c"="0,1,-1,-1,-1,-1,0,0,249,586"
+"uiDVEMultiDimPropPageValue_copts"="dexps_29867_tfmexps_0_"
+"uiRevDveDlg_copts"="tfmexps_0_a1_6.28318530717960040_a2_0.00000000000000000_rt_0_tft_0_dexps_2162_"
+"uiRevDveDlg_c"="0,1,-1,-1,-1,-1,0,0,241,252"
+"uiDveHwHoleSpec_c"="0,1,-1,-1,-1,-1,0,0,216,755"
+"uiDveHwHoleSpec_copts"="dexps_511_tfmexps_0_"
+"uiDveHwInsertHole_c"="0,1,-1,-1,-1,-1,0,0,233,137"
+"uiDveHwInsertHole_copts"="tfmexps_0_dexps_62_"
+"uiArcPropDlg_c"="0,1,-1,-1,-1,-1,0,0,241,554"
+"uiArcPropDlg_copts"="dexps_151_tfmexps_0_"
+"uiDveEndSpecDlg_copts"="tfmexps_0_dexps_16114_"
+"uiDveEndSpecDlg_c"="0,1,-1,-1,-1,-1,0,0,249,335"
 "uiPreviewDlg_c"="0,1,-1,-1,-1,-1,0,0,249,80"
 "uiPreviewDlg_copts"="dexps_2_"
+"uiDveSketchConvertEntDlg_c"="0,1,-1,-1,-1,-1,0,0,249,157"
+"uiDynSectionViewDlg_copts"="tfmexps_1_dexps_498_"
+"uiDynSectionViewDlg_c"="0,1,-1,-1,-1,-1,0,0,224,920"
+"materialDveColorDlg_c"="0,1,-1,-1,-1,-1,0,0,228,906"
+"materialDveColorDlg_copts"="dexps_111_tfmexps_0_"
+"materialDveMappingDlg_c"="0,1,-1,-1,-1,-1,0,0,245,470"
+"materialDveMappingDlg_copts"="dexps_1055_"
+"materialDveIlluminationDlg_c"="0,1,-1,-1,-1,-1,0,0,245,497"
+"materialDveIlluminationDlg_copts"="dexps_7_"
+"materialDveSurfaceFinishDlg_c"="0,1,-1,-1,-1,-1,0,0,245,83"
+"materialDveSurfaceFinishDlg_copts"="dexps_7_"
+"uiSweepThreadDveDlg_c"="0,1,-1,-1,-1,-1,0,0,223,1016"
+"uiSweepThreadDveDlg_copts"="tfmexps_0_dexps_508415_"
+"uiDVEskChamferDlg_copts"="dexps_2_pin_1_tfmexps_0_"
+"uiDVEskChamferDlg_c"="0,1,-1,-1,-1,-1,0,0,241,183"
+"uiBrowseModelDveDlg_c"="0,1,-1,-1,-1,-1,0,0,217,267"
+"uiBrowseModelDveDlg_copts"="dexps_70_tfmexps_0_"
+"uiDVEUnfoldViewDlg_c"="0,1,-1,-1,-1,-1,0,0,217,657"
+"uiDVEUnfoldViewDlg_copts"="dexps_27133_tfmexps_0_"
+"uiCenterMarkSymDveDlg_c"="0,1,-1,-1,-1,-1,0,0,217,391"
+"uiCenterMarkSymDveDlg_copts"="dexps_127_tfmexps_0_"
+"uiSimpConfDeleteDlg_c"="0,1,-1,-1,-1,-1,785,418,1145,644"
+"uiPowerAssistDveDlg_c"="0,1,-1,-1,-1,-1,0,0,217,281"
+"uiPowerAssistDveDlg_copts"="dexps_253_"
+"uiAutoDimDrwDve_c"="0,1,-1,-1,-1,-1,0,0,217,568"
+"uiAutoDimDrwDve_copts"="dexps_30_"
+"uiNoteEdit_c"="0,1,-1,-1,-1,-1,0,0,1920,890"
+"uiNoteDve_c"="0,1,-1,-1,-1,-1,0,0,200,851"
+"uiNoteDve_copts"="dexps_228797_tfmexps_0_"
+"uiCThreadDveDlg_copts"="tfmexps_0_dexps_15_"
+"uiCThreadDveDlg_c"="0,1,-1,-1,-1,-1,0,0,245,397"
 "uiConfDeleteDlg_c"="0,1,-1,-1,-1,-1,786,385,1144,676"
+"saveAllDlg_c"="0,1,-1,-1,-1,-1,545,340,1158,679"
+"uiHealingDveDlg_copts"="tfmexps_0_dexps_7_"
+"uiHealingDveDlg_c"="0,1,-1,-1,-1,-1,0,0,241,547"
+"uiOptionsBase_c"="0,1,-1,-1,-1,-1,509,136,1389,899"
+"uiDveApiPage2_copts"="tfmexps_0_"
+"uiDveApiPage2_c"="0,1,-1,-1,-1,-1,0,0,229,397"
 "uiSkPlaneDialog_c"="0,1,-1,-1,-1,-1,0,0,229,62"
 "uiSkPlaneDialog_copts"="dexps_34_tfmexps_1_"
-"uiComPropSkSegDlg_c"="0,1,-1,-1,-1,-1,0,0,249,189"
-"uiComPropSkSegDlg_copts"="dexps_119_tfmexps_0_"
 "uiAddRemoveSketchBlockDveDlg_copts"="tfmexps_0_dexps_3_"
 "uiAddRemoveSketchBlockDveDlg_c"="0,1,-1,-1,-1,-1,0,0,241,110"
-"uiArcPropDlg_c"="0,1,-1,-1,-1,-1,0,0,249,492"
-"uiArcPropDlg_copts"="dexps_8343_tfmexps_0_"
-"uiParamDlg"="0,1,-1,-1,-1,-1,823,314,1036,438"
-"uiDVEMultiDimPropPageValue_c"="0,1,-1,-1,-1,-1,0,0,217,529"
-"uiDVEMultiDimPropPageValue_copts"="dexps_28843_tfmexps_0_"
-"uiMeasureDlg_c"="0,1,-1,-1,-1,-1,0,0,344,293"
-"uiDialog_c"="0,1,-1,-1,-1,-1,791,439,1265,922"
-"uiSkRectangleProp_c"="0,1,-1,-1,-1,-1,0,0,232,789"
+"uiDialog_c"="0,1,-1,-1,-1,-1,791,439,1301,584"
+"uiSkRectangleProp_c"="0,1,-1,-1,-1,-1,0,0,224,908"
 "uiSkRectangleProp_copts"="dexps_8343_tfmexps_0_"
-"uiDveFilletDlg_copts"="tfmexps_0_chamfertype_4_dexps_206_fltype_0_"
-"uiDveFilletDlg_c"="0,1,-1,-1,-1,-1,0,0,241,492"
-"uiLPatternDlg_copts"="tfmexps_0_vk_0_gp_0_spo_2_spt_1_pc_1_osro_0_osrt_0_ocro_1_ocrt_1_dexps_12591_apt_0_apst_0_pb_0.000000_asn_10_ps_10_ts_1_"
-"uiLPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,228,739"
-"uiOptionsBase_c"="0,1,-1,-1,-1,-1,509,136,1389,899"
+"uiDveFilletDlg_copts"="tfmexps_0_chamfertype_6_dexps_206_fltype_0_"
+"uiDveFilletDlg_c"="0,1,-1,-1,-1,-1,0,0,245,375"
+"uiLPatternDlg_copts"="tfmexps_0_vk_0_gp_0_spo_2_spt_2_pc_1_osro_0_osrt_0_ocro_1_ocrt_1_dexps_12591_apt_0_apst_0_pb_0.000000_asn_10_ps_10_ts_1_"
+"uiLPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,224,739"
 "uiSummaryInfoDlg_c"="0,1,-1,-1,-1,-1,411,206,1166,700"
-"uiDveSketchMessageDlg_c"="0,1,-1,-1,-1,-1,0,0,233,67"
+"uiDveSketchMessageDlg_c"="0,1,-1,-1,-1,-1,0,0,241,132"
 "uiDveSketchMessageDlg_copts"="dexps_3_tfmexps_0_"
-"WPFPage_c"="0,1,-1,-1,-1,-1,3,34,244,43"
+"WPFPage_c"="0,1,-1,-1,-1,-1,3,34,248,43"
 "WPFPage_copts"="tfmexps_0_dexps_0_"
-"materialDveColorDlg_c"="0,1,-1,-1,-1,-1,0,0,240,813"
-"materialDveColorDlg_copts"="dexps_111_tfmexps_0_"
-"materialDveMappingDlg_c"="0,1,-1,-1,-1,-1,0,0,257,514"
-"materialDveMappingDlg_copts"="dexps_1055_"
-"materialDveIlluminationDlg_c"="0,1,-1,-1,-1,-1,0,0,257,497"
-"materialDveIlluminationDlg_copts"="dexps_7_"
-"materialDveSurfaceFinishDlg_c"="0,1,-1,-1,-1,-1,0,0,257,83"
-"materialDveSurfaceFinishDlg_copts"="dexps_7_"
-"uiTrimChoicesDlg_c"="0,1,-1,-1,-1,-1,0,0,245,429"
+"uiTrimChoicesDlg_c"="0,1,-1,-1,-1,-1,0,0,249,429"
 "uiTrimChoicesDlg_copts"="dexps_3_trimMode_1_tfmexps_0_"
 "uiComponentMateDlg_c"="0,1,-1,-1,-1,-1,0,0,876,1009"
 "uiNewAddMateDlg_copts"="tfmexps_1_matepreview_1_onscreendialog_1_addfolder_0_pushpin_1_userarcdistanceoption_1_dexps_103_"
@@ -9977,33 +10295,19 @@ REGEDIT4
 "uiMateAnalysisDlg_c"="0,1,-1,-1,-1,-1,0,0,233,325"
 "uiMateAnalysisDlg_copts"="dexps_77_"
 "su_CDialogopts"="locationX_356_locationY_931_"
-"uiOffsetDialog1_c"="0,1,-1,-1,-1,-1,0,0,244,243"
+"uiOffsetDialog1_c"="0,1,-1,-1,-1,-1,0,0,241,243"
 "uiEditRefLocationsDlg_c"="0,1,-1,-1,-1,-1,537,333,1272,683"
-"saveAllDlg_c"="0,1,-1,-1,-1,-1,545,340,1158,703"
 "uiDveMoveCompDlg_copts"="tfmexps_1_dexps_52_stc_1_icf_1_es_1_efh_1_"
 "uiDveMoveCompDlg_c"="0,1,-1,-1,-1,-1,0,0,261,341"
 "uiCombineBodiesDveDlg_copts"="tfmexps_0_ot_0_dexps_70_"
 "uiCombineBodiesDveDlg_c"="0,1,-1,-1,-1,-1,0,0,233,522"
 "asmuiRebuildAssyDlg_c"="0,1,-1,-1,-1,-1,0,0,508,170"
 "apUserJobDlg_c"="0,1,-1,-1,-1,-1,773,411,1148,629"
-"uiCustomizePropSheet_c"="0,1,-1,-1,-1,-1,275,283,934,961"
-"uiDynSectionViewDlg_c"="0,1,-1,-1,-1,-1,0,0,239,920"
-"uiDynSectionViewDlg_copts"="tfmexps_0_dexps_498_"
-"uiDVEUnfoldViewDlg_c"="0,1,-1,-1,-1,-1,0,0,217,657"
-"uiDVEUnfoldViewDlg_copts"="dexps_27133_tfmexps_0_"
 "uiDrSheetPropDlgSheet_c"="0,1,-1,-1,-1,-1,492,383,1041,947"
 "uiBreakViewDve_copts"="tfmexps_0_dexps_3_"
 "uiBreakViewDve_c"="0,1,-1,-1,-1,-1,0,0,217,261"
-"uiPowerAssistDveDlg_c"="0,1,-1,-1,-1,-1,0,0,217,281"
-"uiPowerAssistDveDlg_copts"="dexps_253_"
-"uiAutoDimDrwDve_c"="0,1,-1,-1,-1,-1,0,0,217,568"
-"uiAutoDimDrwDve_copts"="dexps_30_"
-"uiDveHwInsertHole_copts"="tfmexps_0_dexps_62_"
-"uiDveHwHoleSpec_c"="0,1,-1,-1,-1,-1,0,0,232,832"
-"uiDveHwHoleSpec_copts"="dexps_511_tfmexps_0_"
-"uiDveHwInsertHole_c"="0,1,-1,-1,-1,-1,0,0,249,137"
 "amFeatPropDlg"="0,1,-1,-1,-1,-1,831,395,1099,666"
-"uiConfigTable_c"="0,1,-1,-1,-1,-1,265,160,1793,541"
+"uiConfigTable_c"="0,1,-1,-1,-1,-1,252,132,1780,513"
 "uiDveExportOptionsDlg_copts"="tfmexps_0_dexps_255_"
 "uiDveExportOptionsDlg_c"="0,1,-1,-1,-1,-1,0,0,233,346"
 "uiNamedViewDlg_c"="0,1,-1,-1,-1,-1,233,476,604,936"
@@ -10011,42 +10315,37 @@ REGEDIT4
 "uiCoordSysDveDlg_c"="0,1,-1,-1,-1,-1,0,0,249,233"
 "uiVisStatePropsDve_c"="0,1,-1,-1,-1,-1,0,0,329,129"
 "uiVisStatePropsDve_copts"="dexps_6_"
-"uiEditConfigDlg_c"="0,1,-1,-1,-1,-1,0,0,256,491"
+"uiEditConfigDlg_c"="0,1,-1,-1,-1,-1,0,0,249,491"
 "uiEditConfigDlg_copts"="dexps_14_tfmexps_0_"
 "uiCrNamedView_c"="0,1,-1,-1,-1,-1,833,463,1098,598"
-"uiSelectorDialog_c"="0,1,-1,-1,-1,-1,741,573,944,616"
+"uiSelectorDialog_c"="0,1,-1,-1,-1,-1,741,558,998,601"
 "uiSkConfDeleteDlg_c"="0,1,-1,-1,-1,-1,793,440,1138,622"
 "uiDveMaterialProperties_c"="0,1,-1,-1,-1,-1,0,0,245,70"
 "uiDveMaterialProperties_copts"="dexps_0_"
-"uiApplyToConfigDlg_c"="0,1,-1,-1,-1,-1,817,350,1114,712"
+"uiApplyToConfigDlg_c"="0,1,-1,-1,-1,-1,817,350,1114,646"
 "dlgMatEditTabProperty_c"="0,1,-1,-1,-1,-1,322,29,785,528"
 "dlgMatEditTabAppearance_c"="0,1,-1,-1,-1,-1,322,29,785,528"
-"uiDVEMultiDimPropPageLeaders_c"="0,1,-1,-1,-1,-1,0,0,217,516"
+"uiDVEMultiDimPropPageLeaders_c"="0,1,-1,-1,-1,-1,0,0,237,484"
 "uiDVEMultiDimPropPageLeaders_copts"="dexps_9229_"
 "uiDveMoveCopyDlg_copts"="tfmexps_0_dexps_35_pin_1_operation_5_solvemove_1_copyents_1_relativemove_1_scale_1.000000_copycount_1_rotateaxisx_0.000000_rotateaxisy_0.000000_rotateaxisz_1.000000_"
 "uiDveMoveCopyDlg_c"="0,1,-1,-1,-1,-1,0,0,236,317"
-"uiDVEMultiDimPropPageOther_c"="0,1,-1,-1,-1,-1,0,0,217,271"
+"uiDVEMultiDimPropPageOther_c"="0,1,-1,-1,-1,-1,0,0,237,270"
 "uiDVEMultiDimPropPageOther_copts"="dexps_3137_"
 "uiLocalLPatDvePage_copts"="tfmexps_0_dexps_127_"
-"uiLocalLPatDvePage_c"="0,1,-1,-1,-1,-1,0,0,233,507"
+"uiLocalLPatDvePage_c"="0,1,-1,-1,-1,-1,0,0,245,523"
 "uiMirSubAssemGenericDvePage_copts"="dexps_96_"
 "uiMirSubAssemFourthDvePage_copts"="iso_1_isu_0_iax_0_ipl_0_ict_1_ias_0_ius_0_icp_0_iclp_0_ics_0_imd_0_ihwd_0_pza_0_dexps_63_"
 "uiMirSubAssemGenericDvePage_c"="0,1,-1,-1,-1,-1,0,0,233,568"
 "uiMirSubAssemFourthDvePage_c"="0,1,-1,-1,-1,-1,0,0,233,645"
 "uiSketchFilletDveDlg_copts"="tfmexps_0_dexps_7_pin_1_"
-"uiSketchFilletDveDlg_c"="0,1,-1,-1,-1,-1,0,0,249,266"
-"uiDVEskChamferDlg_c"="0,1,-1,-1,-1,-1,0,0,229,153"
-"uiDVEskChamferDlg_copts"="dexps_2_pin_1_tfmexps_0_"
-"uiRevDveDlg_copts"="tfmexps_0_a1_6.28318530717960040_a2_0.00000000000000000_rt_0_tft_0_dexps_2162_"
-"uiRevDveDlg_c"="0,1,-1,-1,-1,-1,0,0,241,252"
+"uiSketchFilletDveDlg_c"="0,1,-1,-1,-1,-1,0,0,241,266"
 "uiDetailCircleDlg_c"="0,1,-1,-1,-1,-1,0,0,200,1117"
 "uiDetailCircleDlg_copts"="dexps_2303_"
 "uiDetailCenterLineDlg_copts"="tfmexps_0_dexps_3_"
 "uiDetailCenterLineDlg_c"="0,1,-1,-1,-1,-1,0,0,217,219"
 "uiDveSketchMirrorDlg_c"="0,1,-1,-1,-1,-1,0,0,233,236"
 "uiDveSketchMirrorDlg_copts"="pin_0_tfmexps_0_"
-"uiSimpConfDeleteDlg_c"="0,1,-1,-1,-1,-1,785,418,1145,644"
-"uiSketchPropertyManager_c"="0,1,-1,-1,-1,-1,0,0,228,329"
+"uiSketchPropertyManager_c"="0,1,-1,-1,-1,-1,0,0,241,329"
 "uiSketchPropertyManager_copts"="dexps_6_"
 "uiWeldMemberDlg_copts"="tfmexps_0_dexps_15_"
 "uiWeldMemberDlg_c"="0,1,-1,-1,-1,-1,0,0,212,961"
@@ -10067,13 +10366,11 @@ REGEDIT4
 "uiSectionLineDlgNew_c"="0,1,-1,-1,-1,-1,0,0,217,352"
 "uiSectionLineDlg_c"="0,1,-1,-1,-1,-1,0,0,200,958"
 "uiSectionLineDlg_copts"="dexps_27007_"
-"uiCenterMarkSymDveDlg_c"="0,1,-1,-1,-1,-1,0,0,217,391"
-"uiCenterMarkSymDveDlg_copts"="dexps_127_tfmexps_0_"
 "uiOffsetDialog1_copts"="tfmexps_0_"
-"showHiddenDlg_c"="0,1,-1,-1,-1,-1,384,144,545,232"
+"showHiddenDlg_c"="0,1,-1,-1,-1,-1,253,111,424,210"
 "uiRepeatMateSelCompDvePage_copts"="tfmexps_0_repeatMatePushpin_1_dexps_5_"
-"uiRepeatMateSelCompDvePage_c"="0,1,-1,-1,-1,-1,0,0,233,132"
-"uiRepeatMateSelRefDvePage_c"="0,1,-1,-1,-1,-1,0,0,233,243"
+"uiRepeatMateSelCompDvePage_c"="0,1,-1,-1,-1,-1,0,0,245,133"
+"uiRepeatMateSelRefDvePage_c"="0,1,-1,-1,-1,-1,0,0,245,315"
 "uiRepeatMateSelRefDvePage_copts"="dexps_9_repeatMatePushpin_1_tfmexps_0_"
 "uiModelMassPropDlg_c"="0,1,-1,-1,-1,-1,397,168,897,911"
 "uiDVEDefaultDialog_copts"="dexps_1_"
@@ -10082,15 +10379,12 @@ REGEDIT4
 "uiRefAxisDveDlg_c"="0,1,-1,-1,-1,-1,0,0,241,236"
 "uiRefAxisDveDlg_copts"="tfmexps_0_dexps_2_pin_0_"
 "uiSweepDveDlg_copts"="tfmexps_0_st_0_et_0_dexps_451_"
-"uiSweepDveDlg_c"="0,1,-1,-1,-1,-1,0,0,229,196"
+"uiSweepDveDlg_c"="0,1,-1,-1,-1,-1,0,0,241,368"
 "uiDrViewPropDlgSheet_c"="0,1,-1,-1,-1,-1,475,359,1042,902"
 "uiSectionScopeDlg_c"="0,1,-1,-1,-1,-1,9,27,532,272"
 "uiPartSectionScopeDlg_c"="0,1,-1,-1,-1,-1,9,27,540,448"
 "uiShowHiddenDlg_c"="0,1,-1,-1,-1,-1,9,27,540,448"
 "uiHiddenBodyDlg_c"="0,1,-1,-1,-1,-1,9,45,540,448"
-"uiNoteEdit_c"="0,1,-1,-1,-1,-1,0,0,1920,861"
-"uiNoteDve_c"="0,1,-1,-1,-1,-1,0,0,200,851"
-"uiNoteDve_copts"="dexps_228797_tfmexps_0_"
 "uiMagnetLineDveDlg_c"="0,1,-1,-1,-1,-1,0,0,217,214"
 "uiMagnetLineDveDlg_copts"="dexps_3_tfmexps_0_"
 "uiAreaHatchDve_c"="0,1,-1,-1,-1,-1,0,0,217,400"
@@ -10099,30 +10393,26 @@ REGEDIT4
 "uiInsertAreaHatchDve_c"="0,1,-1,-1,-1,-1,0,0,217,516"
 "uiLinearNotePatternDlg_c"="0,1,-1,-1,-1,-1,0,0,217,388"
 "uiLinearNotePatternDlg_copts"="dexps_14_"
-"uiCircularSketchPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,241,472"
+"uiCircularSketchPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,229,456"
 "uiCircularSketchPatternDlg_copts"="dexps_18_tfmexps_0_"
-"uiCirPatternDlg_copts"="tfmexps_1_esa_180.000000_esc_1_gp_0_pc_1_cn_6_dexps_295_"
-"uiCirPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,257,644"
+"uiCirPatternDlg_copts"="tfmexps_0_esa_180.000000_esc_1_gp_0_pc_1_cn_2_dexps_295_"
+"uiCirPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,240,573"
 "uiSkDiagDlg_c"="0,1,-1,-1,-1,-1,32,145,360,277"
-"uiSweepThreadDveDlg_copts"="tfmexps_0_dexps_508415_"
-"uiSweepThreadDveDlg_c"="0,1,-1,-1,-1,-1,0,0,224,966"
 "uiSplinePropDlg_c"="0,1,-1,-1,-1,-1,0,0,217,719"
 "uiSplinePropDlg_copts"="dexps_31_"
 "uiBreakoutLineDlg_copts"="tfmexps_0_dexps_3_"
 "uiBreakoutLineDlg_c"="0,1,-1,-1,-1,-1,0,0,217,132"
-"uiCThreadDveDlg_copts"="tfmexps_0_dexps_15_"
-"uiCThreadDveDlg_c"="0,1,-1,-1,-1,-1,0,0,233,455"
 "uiMirrPatternDveDlg_c"="0,1,-1,-1,-1,-1,0,0,245,330"
 "uiMirrPatternDveDlg_copts"="dexps_782_tfmexps_1_"
 "uiAddConfigDlg_copts"="tfmexps_0_dexps_30_"
-"uiAddConfigDlg_c"="0,1,-1,-1,-1,-1,0,0,244,511"
-"skSlotCreateDialog_c"="0,1,-1,-1,-1,-1,0,0,229,481"
+"uiAddConfigDlg_c"="0,1,-1,-1,-1,-1,0,0,249,511"
+"skSlotCreateDialog_c"="0,1,-1,-1,-1,-1,0,0,245,481"
 "skSlotCreateDialog_copts"="dexps_407_tfmexps_0_"
-"skSlotEditDialog_c"="0,1,-1,-1,-1,-1,0,0,229,630"
+"skSlotEditDialog_c"="0,1,-1,-1,-1,-1,0,0,245,582"
 "skSlotEditDialog_copts"="dexps_407_"
 "toolboxSizerDve_copts"="tfmexps_0_dexps_31_"
-"toolboxSizerDve_c"="0,1,-1,-1,-1,-1,0,0,220,851"
-"uiContentDveDlg_c"="0,1,-1,-1,-1,-1,0,0,233,106"
+"toolboxSizerDve_c"="0,1,-1,-1,-1,-1,0,0,241,745"
+"uiContentDveDlg_c"="0,1,-1,-1,-1,-1,0,0,249,106"
 "uiContentDveDlg_copts"="dexps_3_"
 "uiXpertReportDialog_c"="0,1,-1,-1,-1,-1,0,0,591,345"
 "uiHiddenGeometryDlg_c"="0,1,-1,-1,-1,-1,9,27,540,448"
@@ -10137,14 +10427,13 @@ REGEDIT4
 "componentViewportOptionsDlg_c"="0,1,-1,-1,-1,-1,1178,185,1307,243"
 "componentViewportOptionsDlg_copts"="wdratio_0.684238_"
 "ui3DOffsetEdgesDlg_c"="0,1,-1,-1,-1,-1,0,0,229,127"
-"uiDveSketchReplaceEntityDlg_c"="0,1,-1,-1,-1,-1,0,0,265,289"
+"uiDveSketchReplaceEntityDlg_c"="0,1,-1,-1,-1,-1,0,0,229,289"
 "uiDveSketchReplaceEntityDlg_copts"="dexps_3_makeconstruction_1_deletereplacedent_0_makesolid_1_pin_0_"
-"uiPolygonPropDlg_c"="0,1,-1,-1,-1,-1,0,0,229,331"
+"uiPolygonPropDlg_c"="0,1,-1,-1,-1,-1,0,0,241,331"
 "uiPolygonPropDlg_copts"="dexps_30_tfmexps_0_"
 "parentChildDlg_c"="0,1,-1,-1,-1,-1,781,364,1140,687"
 "uiDveMessageDlg_c"="0,1,-1,-1,-1,-1,0,0,229,171"
 "uiDveMessageDlg_copts"="dexps_3_"
-"uiDveSketchConvertEntDlg_c"="0,1,-1,-1,-1,-1,0,0,241,140"
 "uiMultipleViewsDlg_c"="0,1,-1,-1,-1,-1,0,0,217,396"
 "uiMultipleViewsDlg_copts"="dexps_31_"
 "uiCompConfigPropDlg_c"="0,1,-1,-1,-1,-1,697,185,1234,877"
@@ -10155,8 +10444,8 @@ REGEDIT4
 "uiCurvePatternDlg_copts"="dexps_299_"
 "uiLocalSketchPatDvePage_copts"="tfmexps_0_dexps_11_"
 "uiLocalSketchPatDvePage_c"="0,1,-1,-1,-1,-1,0,0,229,250"
-"uiEquationDlg_c"="0,1,-1,-1,-1,-1,386,180,1754,857"
-"uiEquationDlg_copts"="AR_1_GV_1_GC1U_30_GC2U_32_GC3U_15_"
+"uiEquationDlg_c"="0,1,-1,-1,-1,-1,344,168,1712,845"
+"uiEquationDlg_copts"="AR_1_GV_2_GC1U_30_GC2U_32_GC3U_15_"
 "uiDerivedPatDvePage_c"="0,1,-1,-1,-1,-1,0,0,229,412"
 "uiDerivedPatDvePage_copts"="dexps_63_"
 "uiLocalChainPatDvePage_c"="0,1,-1,-1,-1,-1,0,0,348,568"
@@ -10166,20 +10455,20 @@ REGEDIT4
 "visIsolateDlg"="0,1,-1,-1,-1,-1,9,155,190,226"
 "uiMeasureHistoryDlg_c"="0,1,-1,-1,-1,-1,593,231,845,571"
 "uiCommentDlg_c"="0,1,-1,-1,-1,-1,776,362,1145,689"
-"uiEllipsePropDlg_c"="0,1,-1,-1,-1,-1,0,0,233,579"
+"uiEllipsePropDlg_c"="0,1,-1,-1,-1,-1,0,0,241,438"
 "uiEllipsePropDlg_copts"="dexps_31_tfmexps_0_"
-"uiBomTableDve_copts"="tfmexps_0_dexps_7799_"
-"uiBomTableDve_c"="0,1,-1,-1,-1,-1,0,0,217,660"
-"uiTableFormatFlyout_c"="0,1,-1,-1,-1,-1,1042,605,1638,656"
+"uiBomTableDve_copts"="tfmexps_0_dexps_7767_"
+"uiBomTableDve_c"="0,1,-1,-1,-1,-1,0,0,245,394"
+"uiTableFormatFlyout_c"="0,1,-1,-1,-1,-1,819,246,1415,327"
 "uiMultiBalloonDveDlg_c"="0,1,-1,-1,-1,-1,0,0,200,781"
 "uiMultiBalloonDveDlg_copts"="dexps_159_tfmexps_0_"
 "uiFoldUpDownDlg_c"="0,1,-1,-1,-1,-1,0,0,229,194"
 "uiFoldUpDownDlg_copts"="dexps_2_tfmexps_0_"
-"uiTableNoteEdit_c"="0,1,-1,-1,-1,-1,0,0,1920,861"
-"uiTableNoteDve_c"="0,1,-1,-1,-1,-1,0,0,217,573"
+"uiTableNoteEdit_c"="0,1,-1,-1,-1,-1,0,0,1920,889"
+"uiTableNoteDve_c"="0,1,-1,-1,-1,-1,0,0,245,292"
 "uiTableNoteDve_copts"="dexps_262143_"
 "uiTextDlg_copts"="tfmexps_0_dexps_6_"
-"uiTextDlg_c"="0,1,-1,-1,-1,-1,0,0,233,439"
+"uiTextDlg_c"="0,1,-1,-1,-1,-1,0,0,249,439"
 "uiJogDlg_c"="0,1,-1,-1,-1,-1,0,0,229,457"
 "uiJogDlg_copts"="dexps_30_tfmexps_0_"
 "uiSMMiteredFlangeDlg_copts"="tfmexps_0_dexps_1982_"
@@ -10206,8 +10495,6 @@ REGEDIT4
 "uiShowHideDveDlg_copts"="dexps_13_tfmexps_0_"
 "uiAdvDveHWHoleSpec_c"="0,1,-1,-1,-1,-1,0,0,211,800"
 "uiAdvDveHWHoleSpec_copts"="dexps_959_"
-"uiBrowseModelDveDlg_c"="0,1,-1,-1,-1,-1,0,0,217,267"
-"uiBrowseModelDveDlg_copts"="dexps_70_tfmexps_0_"
 "uiInsertModelItemsDveDlg_copts"="tfmexps_0_dexps_509_"
 "uiInsertModelItemsDveDlg_c"="0,1,-1,-1,-1,-1,0,0,200,854"
 "uiSelectBodyDlg_c"="0,1,-1,-1,-1,-1,0,0,195,237"
@@ -10234,12 +10521,12 @@ REGEDIT4
 "uiEntPropDlg_c"="0,1,-1,-1,-1,-1,848,449,1073,591"
 "uiCurvatureHedgehogDveDlg_c"="0,1,-1,-1,-1,-1,0,0,229,527"
 "uiCurvatureHedgehogDveDlg_copts"="dexps_14_"
-"uiTXDimSelectionDve_c"="0,1,-1,-1,-1,-1,0,0,241,190"
-"uiTXDimSelectionDve_copts"="dexps_2_"
+"uiTXDimSelectionDve_c"="0,1,-1,-1,-1,-1,0,0,249,190"
+"uiTXDimSelectionDve_copts"="dexps_2_tfmexps_0_"
 "uiPlaneNewDveDlg_c"="0,1,-1,-1,-1,-1,0,0,229,353"
 "uiPlaneNewDveDlg_copts"="dexps_15_"
 "uiMeasurementOptionDlg_c"="0,1,-1,-1,-1,-1,506,275,789,803"
-"uiReplaceMateEntsDvePage_c"="0,1,-1,-1,-1,-1,0,0,240,401"
+"uiReplaceMateEntsDvePage_c"="0,1,-1,-1,-1,-1,0,0,245,401"
 "uiReplaceMateEntsDvePage_copts"="tfmexps_0_dexps_5_"
 "uiWeldmentTableDve_copts"="tfmexps_0_dexps_1279_"
 "uiWeldmentTableDve_c"="0,1,-1,-1,-1,-1,0,0,217,487"
@@ -10255,7 +10542,7 @@ REGEDIT4
 "uiDveRevisionTableColumnProp_c"="0,1,-1,-1,-1,-1,0,0,217,222"
 "uiDveRevisionTableColumnProp_copts"="dexps_2_"
 "uiLinkPropDlg_c"="0,1,-1,-1,-1,-1,392,299,835,725"
-"uiBomColumnPropFlyout_c"="0,1,-1,-1,-1,-1,949,141,1119,232"
+"uiBomColumnPropFlyout_c"="0,1,-1,-1,-1,-1,1472,237,1642,328"
 "uiEditCusPropListDlg_c"="0,1,-1,-1,-1,-1,625,333,968,574"
 "uiShellDveDlg_copts"="tfmexps_0_dexps_26_"
 "uiShellDveDlg_c"="0,1,-1,-1,-1,-1,0,0,229,266"
@@ -10269,8 +10556,8 @@ REGEDIT4
 "uiCutlistSortingOptionsDVE_c"="0,1,-1,-1,-1,-1,0,0,241,123"
 "uiCutlistSortingOptionsDVE_copts"="tfmexps_0_dexps_2_"
 "uiWeldmentInfoDlg_c"="0,1,-1,-1,-1,-1,532,298,1389,793"
-"uiNetDveDlg_c"="0,1,-1,-1,-1,-1,0,0,212,786"
-"uiNetDveDlg_copts"="dexps_1610_"
+"uiNetDveDlg_c"="0,1,-1,-1,-1,-1,0,0,241,503"
+"uiNetDveDlg_copts"="dexps_586_"
 "uiHoleSeriesPlacementPage_c"="0,1,-1,-1,-1,-1,0,0,229,362"
 "uiHoleSeriesPlacementPage_copts"="dexps_14_"
 "uiHSStartHoleSpec_c"="0,1,-1,-1,-1,-1,0,0,229,226"
@@ -10312,6 +10599,14 @@ REGEDIT4
 "uiVisIsolateNameDlg_c"="0,1,-1,-1,-1,-1,0,136,265,245"
 "uiEditSketchRelDve_copts"="tfmexps_0_dexps_2_"
 "uiEditSketchRelDve_c"="0,1,-1,-1,-1,-1,0,0,249,380"
+"uiSelConfigDlg_c"="0,1,-1,-1,-1,-1,813,406,1108,634"
+"uiMotionPublisherDlg_c"="0,1,-1,-1,-1,-1,0,0,245,294"
+"uiMotionPublisherDlg_copts"="dexps_25_tfmexps_0_"
+"postionStateNameDlg_c"="0,1,-1,-1,-1,-1,828,453,1093,588"
+"postionStateReorderDlg_c"="0,1,-1,-1,-1,-1,789,400,1132,641"
+"uiAnnViewForTableDlg_c"="0,1,-1,-1,-1,-1,768,432,1152,608"
+"uiExplodeDvePage_c"="0,1,-1,-1,-1,-1,0,0,245,720"
+"uiExplodeDvePage_copts"="dexps_30_selparts_0_chstep_0_"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General]
 "uiMainToolBar_c"=dword:00000000
@@ -10405,7 +10700,7 @@ REGEDIT4
 "sizeHorzCX"=dword:00000064
 "sizeHorzCY"=dword:0000012c
 "sizeVertCX"=dword:00000168
-"sizeVertCY"=dword:00000313
+"sizeVertCY"=dword:00000330
 "sizeFloatCX"=dword:000000fa
 "sizeFloatCY"=dword:000001f4
 "autoHiding"=dword:00000001
@@ -10417,7 +10712,7 @@ REGEDIT4
 "_floatRestoreSizeCX"=dword:000000fa
 "_floatRestoreSizeCY"=dword:000001f4
 "_floatBarCollapsed"=dword:00000000
-"activeTabName"="View Palette"
+"activeTabName"="Design Library"
 "taskpaneDismissed"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar0]
@@ -10425,9 +10720,9 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar1]
 "BarID"=dword:0000e81b
-"Bars"=dword:00000075
+"Bars"=dword:00000074
 "Bar#0"=dword:00000000
-"Bar#1"=dword:0000e821
+"Bar#1"=dword:00000000
 "Bar#2"=dword:00000000
 "Bar#3"=dword:00000000
 "Bar#4"=dword:00000000
@@ -10530,19 +10825,18 @@ REGEDIT4
 "Bar#101"=dword:00000000
 "Bar#102"=dword:0001e837
 "Bar#103"=dword:00000000
-"Bar#104"=dword:0000e8a4
+"Bar#104"=dword:0000e8a5
 "Bar#105"=dword:00000000
-"Bar#106"=dword:0000e8a5
+"Bar#106"=dword:0000e8a8
 "Bar#107"=dword:00000000
-"Bar#108"=dword:0000e8a8
-"Bar#109"=dword:00000000
-"Bar#110"=dword:0000e820
-"Bar#111"=dword:0000e80c
-"Bar#112"=dword:00000000
-"Bar#113"=dword:00002707
-"Bar#114"=dword:00000000
-"Bar#115"=dword:0000e8a0
-"Bar#116"=dword:00000000
+"Bar#108"=dword:0000e820
+"Bar#109"=dword:0000e80c
+"Bar#110"=dword:00000000
+"Bar#111"=dword:00002707
+"Bar#112"=dword:0001e8a4
+"Bar#113"=dword:00000000
+"Bar#114"=dword:0000e8a0
+"Bar#115"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar10]
 "BarID"=dword:0000e80d
@@ -10564,83 +10858,98 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:00000216
+"XPos"=dword:000002e5
 "YPos"=dword:000001a7
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar101]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:000002e5
-"YPos"=dword:000001a7
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar102]
-"BarID"=dword:0000e81f
-"Horz"=dword:00000001
-"Floating"=dword:00000001
 "XPos"=dword:00000216
 "YPos"=dword:000001e6
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar103]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar102]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:000002f1
 "YPos"=dword:000001e6
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar104]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar103]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:0000062d
+"XPos"=dword:0000064a
 "YPos"=dword:00000419
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e855
 "Bar#2"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar105]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar104]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:000002f0
-"YPos"=dword:000001ff
+"XPos"=dword:0000030d
+"YPos"=dword:00000419
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e857
 "Bar#2"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar106]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar105]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:000006a8
+"XPos"=dword:000006c5
 "YPos"=dword:00000419
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e856
 "Bar#2"=dword:00000000
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar106]
+"BarID"=dword:0000e81f
+"Horz"=dword:00000001
+"Floating"=dword:00000001
+"XPos"=dword:000003fa
+"YPos"=dword:000001fb
+"Bars"=dword:00000003
+"Bar#0"=dword:00000000
+"Bar#1"=dword:0000e858
+"Bar#2"=dword:00000000
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar107]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:0000032a
-"YPos"=dword:00000291
+"XPos"=dword:00000326
+"YPos"=dword:00000150
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
-"Bar#1"=dword:0000e858
+"Bar#1"=dword:0000e813
 "Bar#2"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar108]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:0000043b
-"YPos"=dword:000001b3
+"XPos"=dword:000001ee
+"YPos"=dword:00000191
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
-"Bar#1"=dword:0000e813
+"Bar#1"=dword:0000e83d
+"Bar#2"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar109]
+"BarID"=dword:0000e81f
+"Horz"=dword:00000001
+"Floating"=dword:00000001
+"XPos"=dword:00000164
+"YPos"=dword:000001cd
+"Bars"=dword:00000003
+"Bar#0"=dword:00000000
+"Bar#1"=dword:0000e83b
 "Bar#2"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar11]
@@ -10655,6 +10964,17 @@ REGEDIT4
 "MRUFloatStyle"=dword:00002000
 "MRUFloatXPos"=dword:fffffff2
 "MRUFloatYPos"=dword:fffffffe
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar110]
+"BarID"=dword:0000e81f
+"Horz"=dword:00000001
+"Floating"=dword:00000001
+"XPos"=dword:000001f6
+"YPos"=dword:000001cd
+"Bars"=dword:00000003
+"Bar#0"=dword:00000000
+"Bar#1"=dword:0000e83c
+"Bar#2"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar12]
 "BarID"=dword:0000e806
@@ -10778,7 +11098,7 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar2]
 "BarID"=dword:0000e81e
-"Bars"=dword:00000008
+"Bars"=dword:0000000a
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0001e813
 "Bar#2"=dword:0000e842
@@ -10787,6 +11107,8 @@ REGEDIT4
 "Bar#5"=dword:0000e816
 "Bar#6"=dword:0000e84f
 "Bar#7"=dword:00000000
+"Bar#8"=dword:0000e8a4
+"Bar#9"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar20]
 "BarID"=dword:0000e818
@@ -11012,9 +11334,9 @@ REGEDIT4
 "MRUWidth"=dword:00000124
 "Docking"=dword:00000001
 "MRUDockID"=dword:0000e81c
-"MRUDockLeftPos"=dword:ffffffff
+"MRUDockLeftPos"=dword:00000000
 "MRUDockTopPos"=dword:000000fb
-"MRUDockRightPos"=dword:00000022
+"MRUDockRightPos"=dword:00000023
 "MRUDockBottomPos"=dword:0000025a
 "MRUFloatStyle"=dword:00001000
 "MRUFloatXPos"=dword:000000cc
@@ -11205,17 +11527,15 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar42]
 "BarID"=dword:0000e8a4
 "Visible"=dword:00000000
-"XPos"=dword:fffffffe
-"YPos"=dword:fffffffe
 "Docking"=dword:00000001
-"MRUDockID"=dword:00000000
-"MRUDockLeftPos"=dword:00000000
-"MRUDockTopPos"=dword:00000000
-"MRUDockRightPos"=dword:00000000
-"MRUDockBottomPos"=dword:00000000
+"MRUDockID"=dword:0000e81e
+"MRUDockLeftPos"=dword:ffffffff
+"MRUDockTopPos"=dword:ffffffff
+"MRUDockRightPos"=dword:000000de
+"MRUDockBottomPos"=dword:00000021
 "MRUFloatStyle"=dword:00002000
-"MRUFloatXPos"=dword:80000000
-"MRUFloatYPos"=dword:80000000
+"MRUFloatXPos"=dword:00000639
+"MRUFloatYPos"=dword:00000160
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar43]
 "BarID"=dword:0000e8a6
@@ -11518,21 +11838,6 @@ REGEDIT4
 "MRUFloatYPos"=dword:80000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar61]
-"BarID"=dword:0000e821
-"Visible"=dword:00000000
-"XPos"=dword:000000e5
-"YPos"=dword:fffffff7
-"Docking"=dword:00000001
-"MRUDockID"=dword:00000000
-"MRUDockLeftPos"=dword:00000000
-"MRUDockTopPos"=dword:00000000
-"MRUDockRightPos"=dword:00000000
-"MRUDockBottomPos"=dword:00000000
-"MRUFloatStyle"=dword:00002000
-"MRUFloatXPos"=dword:80000000
-"MRUFloatYPos"=dword:80000000
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar62]
 "BarID"=dword:0000e855
 "Visible"=dword:00000000
 "XPos"=dword:fffffffe
@@ -11548,7 +11853,7 @@ REGEDIT4
 "MRUFloatXPos"=dword:fffffffe
 "MRUFloatYPos"=dword:ffffffff
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar63]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar62]
 "BarID"=dword:0000e856
 "Visible"=dword:00000000
 "XPos"=dword:fffffffe
@@ -11564,7 +11869,7 @@ REGEDIT4
 "MRUFloatXPos"=dword:fffffffe
 "MRUFloatYPos"=dword:ffffffff
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar64]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar63]
 "BarID"=dword:0000e857
 "Visible"=dword:00000000
 "XPos"=dword:fffffffe
@@ -11580,7 +11885,7 @@ REGEDIT4
 "MRUFloatXPos"=dword:fffffffe
 "MRUFloatYPos"=dword:ffffffff
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar65]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar64]
 "BarID"=dword:0000e858
 "Visible"=dword:00000000
 "XPos"=dword:fffffffe
@@ -11596,7 +11901,7 @@ REGEDIT4
 "MRUFloatXPos"=dword:fffffffe
 "MRUFloatYPos"=dword:ffffffff
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar66]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar65]
 "BarID"=dword:0000e8a5
 "Visible"=dword:00000000
 "XPos"=dword:fffffffe
@@ -11611,7 +11916,7 @@ REGEDIT4
 "MRUFloatXPos"=dword:80000000
 "MRUFloatYPos"=dword:80000000
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar67]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar66]
 "BarID"=dword:0000e8a8
 "Visible"=dword:00000000
 "XPos"=dword:fffffffe
@@ -11626,20 +11931,20 @@ REGEDIT4
 "MRUFloatXPos"=dword:80000000
 "MRUFloatYPos"=dword:80000000
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar68]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar67]
 "BarID"=dword:0000e820
+"Visible"=dword:00000000
 "Docking"=dword:00000001
 "MRUDockID"=dword:0000e81b
-"MRUDockLeftPos"=dword:ffffffff
-"MRUDockTopPos"=dword:ffffffff
-"MRUDockRightPos"=dword:000000e6
-"MRUDockBottomPos"=dword:00000021
+"MRUDockLeftPos"=dword:00000000
+"MRUDockTopPos"=dword:00000000
+"MRUDockRightPos"=dword:000000e7
+"MRUDockBottomPos"=dword:00000022
 "MRUFloatStyle"=dword:00000004
 "MRUFloatXPos"=dword:80000000
 "MRUFloatYPos"=dword:80000000
-"visible"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar69]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar68]
 "BarID"=dword:0000e849
 "Visible"=dword:00000000
 "Docking"=dword:00000001
@@ -11647,10 +11952,23 @@ REGEDIT4
 "MRUDockLeftPos"=dword:ffffffff
 "MRUDockTopPos"=dword:ffffffff
 "MRUDockRightPos"=dword:00000167
-"MRUDockBottomPos"=dword:00000312
+"MRUDockBottomPos"=dword:0000032f
 "MRUFloatStyle"=dword:00000004
 "MRUFloatXPos"=dword:fffffffe
 "MRUFloatYPos"=dword:ffffffff
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar69]
+"BarID"=dword:00002707
+"YPos"=dword:00000020
+"Docking"=dword:00000001
+"MRUDockID"=dword:00000000
+"MRUDockLeftPos"=dword:ffffffff
+"MRUDockTopPos"=dword:00000020
+"MRUDockRightPos"=dword:ffffffff
+"MRUDockBottomPos"=dword:0000000a
+"MRUFloatStyle"=dword:00002000
+"MRUFloatXPos"=dword:ffffffff
+"MRUFloatYPos"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar7]
 "BarID"=dword:0000e84e
@@ -11658,100 +11976,93 @@ REGEDIT4
 "YPos"=dword:00000015
 "Docking"=dword:00000001
 "MRUDockID"=dword:0000e81c
-"MRUDockLeftPos"=dword:ffffffff
+"MRUDockLeftPos"=dword:00000000
 "MRUDockTopPos"=dword:00000015
-"MRUDockRightPos"=dword:00000022
+"MRUDockRightPos"=dword:00000023
 "MRUDockBottomPos"=dword:000000fc
 "MRUFloatStyle"=dword:00002000
 "MRUFloatXPos"=dword:fffffffe
 "MRUFloatYPos"=dword:ffffffff
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar70]
-"BarID"=dword:00002707
-"YPos"=dword:00000020
-"Docking"=dword:00000001
-"MRUDockID"=dword:00000000
-"MRUDockLeftPos"=dword:ffffffff
-"MRUDockTopPos"=dword:00000020
-"MRUDockRightPos"=dword:0000077f
-"MRUDockBottomPos"=dword:00000072
-"MRUFloatStyle"=dword:00002000
-"MRUFloatXPos"=dword:ffffffff
-"MRUFloatYPos"=dword:00000000
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar71]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000215
 "YPos"=dword:00000135
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar72]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar71]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:0000031a
 "YPos"=dword:00000213
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar73]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar72]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000356
 "YPos"=dword:0000025c
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar74]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar73]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000215
 "YPos"=dword:00000213
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar75]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar74]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000215
 "YPos"=dword:0000017f
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar76]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar75]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000215
 "YPos"=dword:00000135
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar77]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar76]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000215
 "YPos"=dword:0000025c
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar78]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar77]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000215
 "YPos"=dword:000001ca
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar79]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar78]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:000003ce
 "YPos"=dword:0000017f
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar79]
+"BarID"=dword:0000e81f
+"Horz"=dword:00000001
+"Floating"=dword:00000001
+"XPos"=dword:00000213
+"YPos"=dword:000000e8
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar8]
 "BarID"=dword:0000e80c
 "Visible"=dword:00000000
-"XPos"=dword:000000e5
 "Docking"=dword:00000001
 "MRUDockID"=dword:0000e81b
-"MRUDockLeftPos"=dword:000000e5
-"MRUDockTopPos"=dword:ffffffff
-"MRUDockRightPos"=dword:00000269
-"MRUDockBottomPos"=dword:00000021
+"MRUDockLeftPos"=dword:00000000
+"MRUDockTopPos"=dword:00000000
+"MRUDockRightPos"=dword:00000184
+"MRUDockBottomPos"=dword:00000022
 "MRUFloatStyle"=dword:00002000
 "MRUFloatXPos"=dword:fffffffe
 "MRUFloatYPos"=dword:ffffffff
@@ -11760,70 +12071,70 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:00000213
+"XPos"=dword:0000029a
 "YPos"=dword:000000e8
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar81]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:0000029a
+"XPos"=dword:00000375
 "YPos"=dword:000000e8
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar82]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:00000375
-"YPos"=dword:000000e8
+"XPos"=dword:00000215
+"YPos"=dword:0000017f
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar83]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000215
-"YPos"=dword:0000017f
+"YPos"=dword:0000025c
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar84]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000215
-"YPos"=dword:0000025c
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar85]
-"BarID"=dword:0000e81f
-"Horz"=dword:00000001
-"Floating"=dword:00000001
-"XPos"=dword:00000215
 "YPos"=dword:00000211
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar86]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar85]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000216
 "YPos"=dword:000002a4
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar87]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar86]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000215
 "YPos"=dword:000001ca
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar88]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar87]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000215
 "YPos"=dword:0000017f
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar89]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar88]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000213
+"YPos"=dword:000000e8
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar89]
+"BarID"=dword:0000e81f
+"Horz"=dword:00000001
+"Floating"=dword:00000001
+"XPos"=dword:0000029c
 "YPos"=dword:000000e8
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar9]
@@ -11846,42 +12157,42 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:0000029c
-"YPos"=dword:000000e8
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar91]
-"BarID"=dword:0000e81f
-"Horz"=dword:00000001
-"Floating"=dword:00000001
 "XPos"=dword:00000213
 "YPos"=dword:00000130
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar92]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar91]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:0000029d
 "YPos"=dword:000000e8
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar93]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar92]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000215
 "YPos"=dword:000000e8
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar94]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar93]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000303
 "YPos"=dword:000000e8
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar95]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar94]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000215
+"YPos"=dword:000000e8
+
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar95]
+"BarID"=dword:0000e81f
+"Horz"=dword:00000001
+"Floating"=dword:00000001
+"XPos"=dword:00000216
 "YPos"=dword:000000e8
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar96]
@@ -11889,31 +12200,31 @@ REGEDIT4
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000216
-"YPos"=dword:000000e8
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar97]
-"BarID"=dword:0000e81f
-"Horz"=dword:00000001
-"Floating"=dword:00000001
-"XPos"=dword:00000216
 "YPos"=dword:00000128
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar98]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar97]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:0000036f
 "YPos"=dword:00000128
 
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar99]
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar98]
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
 "XPos"=dword:00000216
 "YPos"=dword:00000168
 
+[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Bar99]
+"BarID"=dword:0000e81f
+"Horz"=dword:00000001
+"Floating"=dword:00000001
+"XPos"=dword:00000216
+"YPos"=dword:000001a7
+
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\General-Summary]
-"Bars"=dword:0000006d
+"Bars"=dword:0000006c
 "ScreenCX"=dword:00000780
 "ScreenCY"=dword:00000438
 
@@ -11927,7 +12238,7 @@ REGEDIT4
 "Knitting Gap Max"="0.0001"
 "Hole Wizard Flip Dir"=dword:00000000
 "Hole Wizard End Condition"=dword:00000001
-"Hole Wizard Depth Value"="160.193"
+"Hole Wizard Depth Value"="52.5"
 "Edge Flange Outer Virtual Sharp"=dword:00000001
 "Edge Flange Inner Virtual Sharp"=dword:00000000
 "Edge Flange Tangent Bend"=dword:00000000
@@ -11938,7 +12249,7 @@ REGEDIT4
 "Edge Flange Tangent To Bend"=dword:00000000
 "Edge Flange Trim Side Bends"=dword:00000000
 "Edge Flange Offset"=dword:00000000
-"Edge Flange Offset Distance"="0.01"
+"Edge Flange Offset Distance"="0.1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Saved Views]
 "SubKeyIndex"=dword:00000002
@@ -12015,15 +12326,13 @@ REGEDIT4
 "WindowPos"="2,3,-1,-1,-1,-1,5,112,1681,1023"
 "swStyles"="Blue"
 "SaveDlgLimits"="4294967295,4294967295"
-"QuickPickBtnState"=dword:0000000e
+"QuickPickBtnState"=dword:00000000
 "Open Saved Drawing File"=dword:00000000
 "Save Copy and Open"=dword:00000000
 "Allow Per Document Keyboard Shortcuts"=dword:00000000
 "Save As References"=dword:00000000
 "Push Pin View Comment Dialog"=dword:00000000
-"PreviousFileDlg"=dword:00000000
-"document1"="0,1,-1,-1,-8,-31,0,0,1845,965,V:\\Teemu\\Arean oven nuppi\\Lukitus tappi2.SLDPRT"
-"document2"="2,3,-1,-1,-8,-31,0,22,1845,987,V:\\Teemu\\Arean oven nuppi\\Lukitus tappi2.SLDDRW"
+"PreviousFileDlg"=dword:00000001
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Settings\FullScreenViewMode]
 "AnimationPaneVisibility"=dword:00000001
@@ -12102,8 +12411,6 @@ REGEDIT4
 "32805"="r"
 "32926"="tr"
 "34100"="zf"
-
-[HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Settings\WebHelp]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\User Interface\Toolbars]
 "Toolbar Version"=dword:0000001e
@@ -12288,7 +12595,7 @@ REGEDIT4
 "uiCustomApiToolbars_c59537"=dword:00000000
 "uiCustomApiToolbars_c59535"=dword:00000000
 "uiCustomApiToolbars_c59534"=dword:00000000
-"uiConfigurationsToolBar_c"=dword:00000000
+"uiConfigurationsToolBar_c"=dword:00000001
 "uiSaveStatesToolBar_c"=dword:00000000
 "uiRebuildStatesToolBar_c"=dword:00000000
 "uiRenderToolBar_c"=dword:00000000
@@ -12539,7 +12846,7 @@ REGEDIT4
 "solidWorksSubscriptionServices_"=dword:00000001
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\Weldments]
-"Options for CutList Algorithm"=dword:00000004
+"Options for CutList Algorithm"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF]
 
@@ -12552,34 +12859,34 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry0]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry0\Angle]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry0\Angle"="0,78539816339745"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry0\Angle"="1.5707963267949"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry1]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry1\Angle]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry1\Angle"="0,78539816339745"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry1\Angle"="1.5707963267949"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry2]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry2\Angle]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry2\Angle"="0,78539816339745"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry2\Angle"="1.5707963267949"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry0]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry0\Distance]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry0\Distance"="0,1"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry0\Distance"="0.01"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry1]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry1\Distance]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry1\Distance"="0,1"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry1\Distance"="0.01"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry2]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry2\Distance]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry2\Distance"="0,1"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry2\Distance"="0.01"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\HemRequest_c]
 
@@ -12738,13 +13045,13 @@ REGEDIT4
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Boolean Reverse0AutoGeometry2"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry0]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry0"="0,78539816339745"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry0"="1.5707963267949"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry1]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry1"="0,78539816339745"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry1"="1.5707963267949"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry2]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry2"="0,78539816339745"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry2"="1.5707963267949"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Int32 Count0AutoGeometry0]
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Int32 Count0AutoGeometry0"="1"
@@ -12761,7 +13068,7 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Boolean DragFlip0AutoGeometry0]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Boolean DragFlip0AutoGeometry0"="0,1"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Boolean DragFlip0AutoGeometry0"="0.01"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Boolean Reverse0AutoGeometry0]
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Boolean Reverse0AutoGeometry0"="0"
@@ -12773,13 +13080,13 @@ REGEDIT4
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Boolean Reverse0AutoGeometry2"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry0]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry0"="0,1"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry0"="0.01"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry1]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry1"="0,1"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry1"="0.01"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry2]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry2"="0,1"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry2"="0.01"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Int32 Count0AutoGeometry0]
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Int32 Count0AutoGeometry0"="1"
@@ -12793,7 +13100,7 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\SolidCore]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\SolidCore\CoreVector_s DragDirection0AutoGeometry0]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\SolidCore\CoreVector_s DragDirection0AutoGeometry0"="0,1"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\SolidCore\CoreVector_s DragDirection0AutoGeometry0"="0.01"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\MidPlaneGeom_c]
 
@@ -12818,13 +13125,13 @@ REGEDIT4
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\ParallelToScreenGeom_c\Boolean PTSReverse0AutoGeometry2"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\ParallelToScreenGeom_c\Double PTSDistance0AutoGeometry0]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\ParallelToScreenGeom_c\Double PTSDistance0AutoGeometry0"="0,1"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\ParallelToScreenGeom_c\Double PTSDistance0AutoGeometry0"="0.1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\ParallelToScreenGeom_c\Double PTSDistance0AutoGeometry1]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\ParallelToScreenGeom_c\Double PTSDistance0AutoGeometry1"="0,1"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\ParallelToScreenGeom_c\Double PTSDistance0AutoGeometry1"="0.1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\ParallelToScreenGeom_c\Double PTSDistance0AutoGeometry2]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\ParallelToScreenGeom_c\Double PTSDistance0AutoGeometry2"="0,1"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\ParallelToScreenGeom_c\Double PTSDistance0AutoGeometry2"="0.1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2017\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\PerpendicularGeom_c]
 
